@@ -18,7 +18,7 @@ public class ICSesion {
     /**
      * Método para desplegar la vista de opciones
      */
-    @RequestMapping(value = "/index")
+    @RequestMapping(value = "/")
     public String opciones(){
         return "index";
     }

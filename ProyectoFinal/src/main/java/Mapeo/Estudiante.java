@@ -5,7 +5,11 @@
  */
 package Mapeo;
 
+import java.io.Serializable;
+import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
@@ -16,7 +20,62 @@ import javax.persistence.Table;
  *
  * @author luis
  */
-public class Estudiante {
-    @Id
+public class Estudiante implements Serializable {
+    
+    @Id@GeneratedValue(strategy=GenerationType.IDENTITY)
+    @Column(name = "idestudiante")
     private long idEstudiante;
+    
+    @Column(name = "nombre")
+    private String nombre;
+    
+    @Column(name = "app")
+    private String app;
+      
+    @Column(name = "apm")
+    private String apm;
+    
+    @Column(name = "contrasenia")
+    private String contrasenia;
+
+    public long getIdEstudiante() {
+        return idEstudiante;
+    }
+
+    public void setIdEstudiante(long idEstudiante) {
+        this.idEstudiante = idEstudiante;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String getApp() {
+        return app;
+    }
+
+    public void setApp(String app) {
+        this.app = app;
+    }
+
+    public String getApm() {
+        return apm;
+    }
+
+    public void setApm(String apm) {
+        this.apm = apm;
+    }
+
+    public String getContrasenia() {
+        return contrasenia;
+    }
+
+    public void setContrasenia(String contrasenia) {
+        this.contrasenia = contrasenia;
+    }
+    
 }

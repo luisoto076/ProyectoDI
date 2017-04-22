@@ -27,6 +27,11 @@
             <list>
                 <!--Clases para el mapeo-->
                 <value>Mapeo.Estudiante</value>
+                <value>Mapeo.Alumno</value>
+                <value>Mapeo.Trabajador</value>
+                <value>Mapeo.Idioma</value>
+                <value>Mapeo.Grupo</value>
+                <value>Mapeo.Inscripcion</value>
             </list>
         </property>
         <property name="hibernateProperties">
