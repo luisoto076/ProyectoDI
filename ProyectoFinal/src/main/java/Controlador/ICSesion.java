@@ -5,6 +5,14 @@
  */
 package Controlador;
 
+import Mapeo.Alumno;
+import Mapeo.Estudiante;
+import Mapeo.Trabajador;
+import Modelo.AlumnoDAO;
+import Modelo.EstudianteDAO;
+import Modelo.TrabajadorDAO;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
@@ -14,12 +22,51 @@ import org.springframework.web.bind.annotation.RequestMapping;
  */
 @Controller
 public class ICSesion {
+   
+    @Autowired
+    private EstudianteDAO ed;
+    
+    @Autowired
+    private AlumnoDAO ad;
+    
+    @Autowired
+    private TrabajadorDAO td;
     
     /**
      * Método para desplegar la vista de opciones
      */
-    @RequestMapping(value = "/")
+    @RequestMapping(value = "/guardar")
     public String opciones(){
+        BCryptPasswordEncoder passwordEncoder = new BCryptPasswordEncoder();
+        Estudiante e = new Estudiante();
+        e.setNombre("luis");
+        e.setApp("soto");
+        e.setApm("martinez");
+        e.setContrasenia(passwordEncoder.encode("1234"));
+        e.setRol("ROLE_ALUMNO");
+        ed.guardar(e);
+        Estudiante e2 = new Estudiante();
+        e2.setNombre("juan");
+        e2.setApp("solo");
+        e2.setApm("solo");
+        e2.setContrasenia(passwordEncoder.encode("4321"));
+        e.setRol("ROLE_TRABAJADOR");
+        ed.guardar(e2);
+        Alumno a = new Alumno();
+        a.setCarrera("c.Computacion");
+        a.setCuenta("311023976");
+        a.setEstudiante(e);
+        ad.guardar(a);
+        Trabajador t = new Trabajador();
+        t.setRfc("ASDAS343SDE");
+        t.setTrabajo("limpiapipas");
+        t.setEstudiante(e2);
+        td.guardar(t);
+        return "index";
+    }
+    
+    @RequestMapping(value = "/")
+    public String index(){
         return "index";
     }
     

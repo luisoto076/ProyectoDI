@@ -38,6 +38,9 @@ public class Estudiante implements Serializable {
     @Column(name = "contrasenia")
     private String contrasenia;
 
+    @Column(name = "rol")
+    private String rol;
+    
     public long getIdEstudiante() {
         return idEstudiante;
     }
@@ -77,5 +80,14 @@ public class Estudiante implements Serializable {
     public void setContrasenia(String contrasenia) {
         this.contrasenia = contrasenia;
     }
+
+    public String getRol() {
+        return rol;
+    }
+
+    public void setRol(String rol) {
+        this.rol = rol;
+    }
+    
     
 }

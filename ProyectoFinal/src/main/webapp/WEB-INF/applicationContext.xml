@@ -65,6 +65,8 @@
           en el paquete controlador, se esta haciendo uso de @Autowiring-->
     <!--Ejemplo para configurar bean-->
     <bean id="EstudianteDAO" class="Modelo.EstudianteDAO" p:sessionFactory-ref="hibernate4AnnotatedSessionFactory"/>
+    <bean id="AlumnoDAO" class="Modelo.AlumnoDAO" p:sessionFactory-ref="hibernate4AnnotatedSessionFactory"/>
+    <bean id="TrabajadorDAO" class="Modelo.TrabajadorDAO" p:sessionFactory-ref="hibernate4AnnotatedSessionFactory"/>
     <!-- SpringSecurity -->
 
     <security:http pattern="/css/*" security="none"/>
@@ -76,7 +78,7 @@
         <security:intercept-url pattern="/estudiante/*" access="hasRole('ESTUDIANTE')" />
         <security:form-login login-page="/"
                              authentication-failure-url="/?login_error=1"
-                             default-target-url="/index"
+                             default-target-url="/?login_succes=1"
                              always-use-default-target="true"/>
         <security:csrf disabled="true"/>
         <security:access-denied-handler error-page="/error403" />
@@ -88,8 +90,8 @@
         <security:authentication-provider>
             <security:password-encoder hash="bcrypt" />
             <security:jdbc-user-service data-source-ref="dataSource" 
-             users-by-username-query= "select p.cuenta,u.contrasenia,1 from persona p inner join usuario u  on (p.idPersona = u.idPersona) where p.activo = True and p.correo = ?;"
-             authorities-by-username-query="select p.correo,u.rol from persona p inner join usuario u  on (p.idPersona = u.idPersona) where  p.correo = ?;"
+             users-by-username-query= "select a.cuenta,e.contrasenia,1 from alumno a inner join estudiante e  on (a.idEstudiante = e.idEstudiante) where a.cuenta = ?;"
+             authorities-by-username-query="select a.cuenta,e.rol from alumno a inner join estudiante e  on (a.idEstudiante = e.idEstudiante) where  a.cuenta = ?;"
             />
         </security:authentication-provider>
     </security:authentication-manager>
