@@ -32,6 +32,16 @@ public class ICSesion {
     @Autowired
     private TrabajadorDAO td;
     
+    @RequestMapping(value = "/")
+    public String indexRedirect(){
+        return "redirect:/index";
+    }
+    
+    @RequestMapping(value = "/index")
+    public String index(){
+        return "index";
+    }
+    
     /**
      * Método para desplegar la vista de opciones
      */
@@ -65,9 +75,10 @@ public class ICSesion {
         return "index";
     }
     
-    @RequestMapping(value = "/")
-    public String index(){
-        return "index";
+    
+    @RequestMapping(value = "/informacionIdioma")
+    public String  informacionIdioma(){
+        return "informacionIdioma";
     }
     
 }

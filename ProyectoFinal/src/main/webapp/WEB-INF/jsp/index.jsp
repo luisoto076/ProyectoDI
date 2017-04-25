@@ -1,6 +1,6 @@
 <%-- 
     Document   : index
-    Created on : 22/04/2017, 11:54:48 AM
+    Created on : 24/04/2017, 11:39:04 AM
     Author     : luis
 --%>
 
@@ -9,24 +9,68 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+        <title>Index</title>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <link href="css/informacionIdioma.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     </head>
     <body>
-        <h1>Hello World!</h1>
-        <a href="ProyectoFinal/guardar">guardar</a>
-        <form class="form-horizontal" action="/ProyectoFinal/login" method="POST">
-            <div class="form-group">
-                <label id="labSes">Usuario</label>
-                <input id="username" name="username" class="col-md-offset-1" style="margin-left:2.9cm;"/>
-            </div>
-            <div class="form-group">
-                <label id="labSes">Contraseña</label>
-                <input id="password" name="password" type="password" class="col-md-offset-1"/>
-            </div>
+        <header>
+        <div class="nav-wrapper">
+            <nav>
+                <a href="#" class="brand-logo">
+                    <img src="imagenes/cele_unam_02.png">
+                </a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li>
+                        </li>
+                        <li>
+                        </li>
+                        <li>
+                        </li>
+                    </ul>
+            </nav>
+        </div>
+        </header>  
+        <main>
             <br/>
-            <div class="form-group">
-                <button id="btnSes" class="btn btn-primary btn-lg">Ingresar</button>
-            </div>
-        </form>
-    </body>
+            <a class='dropdown-button btn blue darken-3 big' href='#' data-activates='dropdown2'>Menu </a>
+            <!-- Dropdown Structure -->
+            <ul id='dropdown2' class='dropdown-content'>
+              <li><a href="#!">Posgrados</a></li>
+              <li><a href="#!">Exámenes</a></li>
+              <li><a href="#!">Certificaciones</a></li>
+              <li><a href="#!">Mediateca</a></li>
+            </ul>
+            <br/>
+            <form  action="/ProyectoFinal/login" method="POST">  
+                <div class="input-field">
+                    <label for="username">Usuario</label>
+                    <input id="username" name="username" type="text"/>
+                </div>
+                <div class="input-field">
+                    <label for="password">Contraseña</label>
+                    <input id="password" name="password" type="password"/>
+                </div>    
+                <div class="form-group">
+                    <button id="btnSes" class="btn btn-primary btn-lg">Ingresar</button>
+                </div>
+            </form>
+            <br/>
+            <a href="/ProyectoFinal/guardar">guardar</a>
+            <br/>
+            <a href="/ProyectoFinal/informacionIdioma">exp</a>
+            <br/>
+        </main>
+        <footer>
+        </footer>
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
 </html>
+

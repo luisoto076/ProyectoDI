@@ -78,11 +78,11 @@
         <security:intercept-url pattern="/estudiante/*" access="hasRole('ESTUDIANTE')" />
         <security:form-login login-page="/"
                              authentication-failure-url="/?login_error=1"
-                             default-target-url="/?login_succes=1"
+                             default-target-url="/index?login_succes=1"
                              always-use-default-target="true"/>
         <security:csrf disabled="true"/>
         <security:access-denied-handler error-page="/error403" />
-        <security:logout logout-success-url="/"
+        <security:logout logout-success-url="/index"
                          delete-cookies="JSESSIONID"/>
     </security:http>
     
