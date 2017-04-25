@@ -5,7 +5,12 @@
  */
 package Controlador;
 
+import Modelo.AlumnoDAO;
+import Modelo.EstudianteDAO;
+import Modelo.TrabajadorDAO;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
  *
@@ -13,5 +18,21 @@ import org.springframework.stereotype.Controller;
  */
 @Controller
 public class InscribirCurso {
+        
+ @Autowired
+    private EstudianteDAO ed;
+    
+    @Autowired
+    private AlumnoDAO ad;
+    
+    @Autowired
+    private TrabajadorDAO td;
+    
+    @RequestMapping(value = "/registro")
+    public String registro(){
+        return "registro";
+    }       
+        
+        
     
 }
