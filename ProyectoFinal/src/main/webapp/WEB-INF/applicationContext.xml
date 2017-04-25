@@ -77,7 +77,7 @@
         <security:intercept-url pattern="/" access="permitAll" />
         <security:intercept-url pattern="/estudiante/*" access="hasRole('ESTUDIANTE')" />
         <security:form-login login-page="/"
-                             authentication-failure-url="/?login_error=1"
+                             authentication-failure-url="/index?login_error=1"
                              default-target-url="/index?login_succes=1"
                              always-use-default-target="true"/>
         <security:csrf disabled="true"/>

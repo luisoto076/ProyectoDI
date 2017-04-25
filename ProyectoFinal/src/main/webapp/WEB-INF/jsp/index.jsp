@@ -19,7 +19,7 @@
         <header>
         <div class="nav-wrapper">
             <nav>
-                <a href="#" class="brand-logo">
+                <a href="/ProyectoFinal/index" class="brand-logo">
                     <img src="imagenes/cele_unam_02.png">
                 </a>
                     <ul id="nav-mobile" class="right hide-on-med-and-down">
@@ -60,7 +60,10 @@
             <br/>
             <a href="/ProyectoFinal/guardar">guardar</a>
             <br/>
-            <a href="/ProyectoFinal/informacionIdioma">exp</a>
+            <a class="btn" href="/ProyectoFinal/informacionIdioma">Información</a>
+            <br/>
+            <br/>
+            <a class="btn" href="/ProyectoFinal/registro">registro</a>
             <br/>
         </main>
         <footer>
@@ -70,7 +73,25 @@
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
+  <script type="text/javascript">    
+  $('.button-collapse').sideNav({
+      menuWidth: 200,
+      closeOnClick: true
+    }
+  );
 
+  function home() {
+      document.getElementById('frame').src = 'home.html';
+  }
+
+  function boxdemo() {
+          document.getElementById('frame').src = 'boxdemo.html';
+  }
+
+  function formdemo() {
+      document.getElementById('frame').src = 'formdemo.html';
+  }
+</script>
   </body>
 </html>
 
