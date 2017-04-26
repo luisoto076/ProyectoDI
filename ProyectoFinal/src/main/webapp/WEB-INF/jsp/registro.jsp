@@ -33,20 +33,21 @@
         </div>
         </header> 
         <main>
-        <form  action="/ProyectoFinal/registrar" method="POST">
-            <br/>
-            <br/>
+       
             <div class="input-field col s12">
-                <select>
-                    <option value="" disabled selected>Selecciona una opción</option>
+                <select id="status" name="status" onChange="mostrar(this.value);">
+                    <!--<option value="" disabled selected>Selecciona una opción</option>-->
                     <option value="1">Alumno UNAM</option>
                     <option value="2">Trabajador UNAM</option>
                     <option value="3">Externo</option>
                 </select>
-                <label>Materialize Select</label>
+              
             </div>
             <br/>
             <br/>
+            <br/>
+            <br/>
+            <form  action="/ProyectoFinal/registrar" method="POST">    
             <div class="row">
             <div class="input-field col s7">
                 <label for="username">Nombre(s)</label>
@@ -61,6 +62,7 @@
                 <input id="apm" name="apm" type="text">
             </div>
             </div>
+            <div id="alumno" style="display: none;">
             <div class="row">
             <div class="input-field col s6">
                 <label for="last_name">Numero de Cuenta</label>
@@ -70,8 +72,29 @@
                 <label for="last_name">Carrera</label>
                 <input id="carrera" name="carrera" type="text">
             </div>
-            
+             </div>
             </div>
+            <div id="trabajador" style="display: none;">
+            <div class="row">
+            <div class="input-field col s6">
+                <label for="last_name">Numero de Trabajador</label>
+                <input id="ntrabajador" name="ntrabajador" type="text">
+            </div>
+            <div class="input-field col s6">
+                <label for="last_name">RFC</label>
+                <input id="rfc" name="rfc" type="text">
+            </div>
+             </div>
+            </div>
+               <div id="externo" style="display: none;">
+            <div class="row">
+            <div class="input-field col s6">
+                <label for="last_name">RFC</label>
+                <input id="rfc" name="rfc" type="text">
+            </div>
+            
+             </div>
+            </div> 
                 <div class="row">
                     <div class="input-field col s6">
                       <label for="password">Contraseña</label>
@@ -86,6 +109,7 @@
                     <button  type="submit" id="btnSes" class="btn btn-primary btn-lg">Aceptar</button>
                 </div>
             </form>
+           
               </main>
         
         
@@ -100,5 +124,28 @@
       $('select').material_select();
       });
   </script>
+  <script type="text/javascript">
+function mostrar(id) {
+    if (id === "1") {
+        $("#alumno").show();
+        $("#trabajador").hide();
+        $("#externo").hide();
+       
+    }
+
+    if (id === "2") {
+        $("#alumno").hide();
+        $("#trabajador").show();
+        $("#externo").hide();
+    }
+
+    if (id === "3") {
+        $("#alumno").hide();
+        $("#trabajador").hide();
+        $("#externo").show();
+    }
+
+   }
+</script>
     </body>
 </html>
