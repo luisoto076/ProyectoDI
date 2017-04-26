@@ -51,17 +51,17 @@
 
                 <tbody>
                     <tr>
-                        <td>1233</td>
+                        <td><a href="infoIdioma?id=1">1233</a></td>
                         <td>María Antonienta Roca</td>
                         <td>Lunes,Miercoles,Viernes: 8:00-9:00</td>
                     </tr>
                     <tr>
-                        <td>1233</td>
+                        <td><a href="infoIdioma?id=2">1233</a></td>
                         <td>Arturo Miranda</td>
                         <td>Lunes,Miercoles,Viernes: 9:00-10:00</td>
                     </tr>
                     <tr>
-                        <td>3432</td>
+                        <td><a href="infoIdioma?id=3">3432</a></td>
                         <td>Juan Carlos López</td>
                         <td>Lunes,Miercoles,Viernes: 8:00-9:00</td>
                     </tr>

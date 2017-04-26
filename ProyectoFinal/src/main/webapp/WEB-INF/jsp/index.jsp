@@ -60,7 +60,7 @@
             <br/>
             <a href="/ProyectoFinal/guardar">guardar</a>
             <br/>
-            <a class="btn" href="/ProyectoFinal/informacionIdioma">Información</a>
+            <a class="btn" href="informacionIdioma">Información</a>
             <br/>
             <br/>
             <a class="btn" href="/ProyectoFinal/registro">registro</a>

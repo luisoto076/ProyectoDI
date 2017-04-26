@@ -5,7 +5,15 @@
  */
 package Controlador;
 
+import Mapeo.Idioma;
+import Modelo.IdiomaDAO;
+import java.util.List;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.servlet.ModelAndView;
 
 /**
  *
@@ -13,5 +21,20 @@ import org.springframework.stereotype.Controller;
  */
 @Controller
 public class ConsultarInfo {
+
+    @Autowired
+    private IdiomaDAO id;
     
+    @RequestMapping(value = "/infoIdioma", method = RequestMethod.GET)
+    public ModelAndView getIdioma(@RequestParam("id") int idIdioma) {
+
+        Idioma idioma = id.getIdioma(idIdioma);
+
+        //return back to index.jsp
+        ModelAndView model = new ModelAndView("infoIdioma");
+        model.addObject("idioma", idioma);
+
+        return model;
+
+    }
 }
