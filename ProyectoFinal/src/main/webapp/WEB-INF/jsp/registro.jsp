@@ -16,27 +16,24 @@
     </head>
     <body>
         <div class="row">
-    <form class="col s12">
-      <div class="row">
-        <div class="input-field col s6">
-          <input placeholder="Placeholder" id="first_name" type="text" class="validate">
-          <label for="first_name">Nombre</label>
-        </div>
-        <div class="input-field col s6">
-          <input id="last_name" type="text" class="validate">
-          <label for="last_name">Apellido Paterno</label>
-        </div>
-        <div class="input-field col s6">
-          <input id="last_name" type="text" class="validate">
-          <label for="last_name">Apellido Materno</label>
-        </div>  
-      </div>
-      <div class="row">
-        <div class="input-field col s12">
-          <input disabled value="I am not editable" id="disabled" type="text" class="validate">
-          <label for="disabled">Disabled</label>
-        </div>
-      </div>
+            <form class="col s12">
+                <div class="row">
+                    
+                    <div class="input-field col s6">
+                        <input id="first_name" type="text" class="validate">
+                        <label for="first_name">Nombre</label>
+                    </div>
+                    <div class="input-field col s6">
+                      <input id="last_name" type="text" class="validate">
+                      <label for="last_name">Apellido Paterno</label>
+                    </div>
+                    <div class="input-field col s6">
+                      <input id="last_name" type="text" class="validate">
+                      <label for="last_name">Apellido Materno</label>
+                    </div>  
+                    <input disabled value="I am not editable" id="disabled" type="text" class="validate">
+                    <label for="disabled">Disabled</label>
+        
       <div class="row">
         <div class="input-field col s12">
           <input id="password" type="password" class="validate">
