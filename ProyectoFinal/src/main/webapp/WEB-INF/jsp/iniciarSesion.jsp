@@ -1,6 +1,6 @@
 <%-- 
-    Document   : InformacionIdioma
-    Created on : 24/04/2017, 01:37:02 AM
+    Document   : index
+    Created on : 24/04/2017, 11:39:04 AM
     Author     : luis
 --%>
 
@@ -10,7 +10,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
-        <title>Horarios</title>
+        <title>Index</title>
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
         <link href="css/informacionIdioma.css" type="text/css" rel="stylesheet" media="screen,projection"/>
@@ -45,33 +45,19 @@
             <br/>
             <a class="btn" href="/ProyectoFinal/informacionIdioma">Información</a>
             <br/>
-            <table class="striped">
-                <thead>
-                    <tr>
-                        <th>Grupo</th>
-                        <th>Profesor</th>
-                        <th>Horario</th>
-                    </tr>
-                </thead>
-
-                <tbody>
-                    <tr>
-                        <td>1233</td>
-                        <td>María Antonienta Roca</td>
-                        <td>Lunes,Miercoles,Viernes: 8:00-9:00</td>
-                    </tr>
-                    <tr>
-                        <td>1233</td>
-                        <td>Arturo Miranda</td>
-                        <td>Lunes,Miercoles,Viernes: 9:00-10:00</td>
-                    </tr>
-                    <tr>
-                        <td>3432</td>
-                        <td>Juan Carlos López</td>
-                        <td>Lunes,Miercoles,Viernes: 8:00-9:00</td>
-                    </tr>
-                </tbody>
-            </table>
+            <form  action="/ProyectoFinal/login" method="POST">  
+                <div class="input-field">
+                    <label for="username">Usuario</label>
+                    <input id="username" name="username" type="text"/>
+                </div>
+                <div class="input-field">
+                    <label for="password">Contraseña</label>
+                    <input id="password" name="password" type="password"/>
+                </div>    
+                <div class="form-group">
+                    <button id="btnSes" class="btn btn-primary btn-lg">Ingresar</button>
+                </div>
+            </form>
             <br/>
             <a class="btn" href="/ProyectoFinal/registro">registro</a>
             <br/>
@@ -106,3 +92,4 @@
   <script src="js/init.js"></script>
   </body>
 </html>
+

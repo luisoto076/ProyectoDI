@@ -51,7 +51,7 @@ and open the template in the editor.
  }
 
  .input-field{
-     max-width: 200px;
+     width: 500px;
  }
  
  table{
@@ -66,14 +66,44 @@ and open the template in the editor.
      background: green
  }
  
- #der{
-    float: right;
-    max-width: 160px;
-    margin: 0;
-    padding: 1em;
-
- }
- 
  .container{
      float:right;
  }
+ 
+
+ 
+.carousel-slider {
+    position: absolute;
+    left: 15% !important;
+    top: 20% !important;
+    height: 400px !important;
+    width: 900px !important;
+}
+
+
+aside{
+    position: fixed;
+    left: 90% !important;
+    top: 15% !important;
+    height: 900px !important;
+    width: 150px !important;
+    background: #2D2357;
+}
+ 
+aside a{
+    color : white !important;
+    font-size: 11pt !important;
+    padding: 10px;
+}
+
+#dropdown2{
+    width: 180px !important;
+}
+
+form{
+    position: absolute;
+    left: 350px;
+    top: 200px
+}
+
+ 

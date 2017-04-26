@@ -53,14 +53,14 @@ public class ICSesion {
         e.setApp("soto");
         e.setApm("martinez");
         e.setContrasenia(passwordEncoder.encode("1234"));
-        e.setRol("ROLE_ALUMNO");
+        e.setRol("ROLE_ESTUDIANTE");
         ed.guardar(e);
         Estudiante e2 = new Estudiante();
         e2.setNombre("juan");
         e2.setApp("solo");
         e2.setApm("solo");
         e2.setContrasenia(passwordEncoder.encode("4321"));
-        e.setRol("ROLE_TRABAJADOR");
+        e2.setRol("ROLE_ESTUDIANTE");
         ed.guardar(e2);
         Alumno a = new Alumno();
         a.setCarrera("c.Computacion");
@@ -81,4 +81,8 @@ public class ICSesion {
         return "informacionIdioma";
     }
     
+    @RequestMapping(value = "/iniciarSesion")
+    public String  iniciarSesion(){
+        return "iniciarSesion";
+    }
 }
