@@ -39,8 +39,10 @@ public class InscribirCurso {
         return "registro";
     }       
     
-    @RequestMapping(value= "/ProyectoFinal/registro", method = RequestMethod.POST)
+    @RequestMapping(value= "/registrar", method = RequestMethod.POST)
     public String registrar(ModelMap model,HttpServletRequest request){
+    BCryptPasswordEncoder passwordEncoder = new BCryptPasswordEncoder();    
+    System.out.println("Ya entro");   
     Estudiante estudiante = new Estudiante();
     Alumno alumno = new Alumno();
     String nombre = request.getParameter("nombre");
@@ -51,7 +53,10 @@ public class InscribirCurso {
     String password = request.getParameter("password");
     String password2 = request.getParameter("password2");
     //if(password.equals(password2))
-    estudiante.setContrasenia(password);
+    String contrasenia = passwordEncoder.encode(password);
+    System.out.println(contrasenia);
+    estudiante.setContrasenia(contrasenia);
+    //estudiante.setContrasenia(password);
     estudiante.setNombre(nombre);
     estudiante.setApm(apm);
     estudiante.setApp(app);

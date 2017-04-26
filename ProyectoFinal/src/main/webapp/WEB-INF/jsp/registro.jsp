@@ -33,15 +33,15 @@
         </div>
         </header> 
         <main>
-        <form  action="/ProyectoFinal/registro" method="POST">
+        <form  action="/ProyectoFinal/registrar" method="POST">
             <br/>
             <br/>
             <div class="input-field col s12">
                 <select>
                     <option value="" disabled selected>Selecciona una opción</option>
                     <option value="1">Alumno UNAM</option>
-                    <!-- <option value="2">Trabajador UNAM</option>
-                    <option value="3">Externo</option> -->
+                    <option value="2">Trabajador UNAM</option>
+                    <option value="3">Externo</option>
                 </select>
                 <label>Materialize Select</label>
             </div>
@@ -49,7 +49,7 @@
             <br/>
             <div class="row">
             <div class="input-field col s7">
-                <label for="username">Nombre</label>
+                <label for="username">Nombre(s)</label>
                 <input id="nombre" name="nombre" type="text"/>
             </div>
             <div class="input-field col s6">
@@ -74,21 +74,23 @@
             </div>
                 <div class="row">
                     <div class="input-field col s6">
-                      <input id="password" type="password" class="validate">
                       <label for="password">Contraseña</label>
+                      <input id="password" name="password" type="password" class="validate">
                     </div>
                     <div class="input-field col s6">
-                      <input id="password2" type="password2" class="validate">
                       <label for="password">Confirmar Contraseña</label>
+                      <input id="password2" name="password2" type="password" class="validate">
                     </div>  
                 </div>
                 <div class="form-group">
                     <button  type="submit" id="btnSes" class="btn btn-primary btn-lg">Aceptar</button>
                 </div>
             </form>
+              </main>
         
-        </form>
-    </main>
+        
+        
+  
     <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
