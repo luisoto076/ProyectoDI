@@ -51,26 +51,26 @@
             <div class="row">
             <div class="input-field col s7">
                 <label for="username">Nombre(s)</label>
-                <input id="nombre" name="nombre" type="text"/>
+                <input id="nombre" name="nombre" type="text" required/>
             </div>
             <div class="input-field col s6">
                 <label for="last_name">Apellido Paterno</label>
-                <input id="app" name="app" type="text">
+                <input id="app" name="app" type="text" required/>
             </div>
             <div class="input-field col s6">
                 <label for="last_name">Apellido Materno</label>
-                <input id="apm" name="apm" type="text">
+                <input id="apm" name="apm" type="text" required/>
             </div>
             </div>
             <div id="alumno" style="display: none;">
             <div class="row">
             <div class="input-field col s6">
                 <label for="last_name">Numero de Cuenta</label>
-                <input id="cuenta" name="cuenta" type="text">
+                <input id="cuenta" name="cuenta" type="text" required/>
             </div>
             <div class="input-field col s6">
                 <label for="last_name">Carrera</label>
-                <input id="carrera" name="carrera" type="text">
+                <input id="carrera" name="carrera" type="text" required/>
             </div>
              </div>
             </div>
@@ -78,11 +78,11 @@
             <div class="row">
             <div class="input-field col s6">
                 <label for="last_name">Numero de Trabajador</label>
-                <input id="ntrabajador" name="ntrabajador" type="text">
+                <input id="ntrabajador" name="ntrabajador" type="text" required/>
             </div>
             <div class="input-field col s6">
                 <label for="last_name">RFC</label>
-                <input id="rfc" name="rfc" type="text">
+                <input id="rfc" name="rfc" type="text" required/>
             </div>
              </div>
             </div>
@@ -90,7 +90,7 @@
             <div class="row">
             <div class="input-field col s6">
                 <label for="last_name">RFC</label>
-                <input id="rfc" name="rfc" type="text">
+                <input id="rfc" name="rfc" type="text" required/>
             </div>
             
              </div>
@@ -98,11 +98,11 @@
                 <div class="row">
                     <div class="input-field col s6">
                       <label for="password">Contraseña</label>
-                      <input id="password" name="password" type="password" class="validate">
+                      <input id="password" name="password" type="password" class="validate" required/>
                     </div>
                     <div class="input-field col s6">
                       <label for="password">Confirmar Contraseña</label>
-                      <input id="password2" name="password2" type="password" class="validate">
+                      <input id="password2" name="password2" type="password" class="validate" required/>
                     </div>  
                 </div>
                 <div class="form-group">
