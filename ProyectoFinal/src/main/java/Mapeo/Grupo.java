@@ -32,11 +32,14 @@ public class Grupo implements Serializable {
     private long idGrupo;
     
     
-    @Column(name = "contacto")
-    private String contacto;
+    @Column(name = "profesor")
+    private String profesor;
     
-    @Column(name = "informacion")
-    private String informacion;
+    @Column(name = "horario")
+    private String horario;
+    
+    @Column(name = "nivel")
+    private String nivel;
     
     @ManyToOne
     @JoinColumn(name="ididioma")
@@ -50,21 +53,31 @@ public class Grupo implements Serializable {
         this.idGrupo = idGrupo;
     }
 
-    public String getContacto() {
-        return contacto;
+    public String getProfesor() {
+        return profesor;
     }
 
-    public void setContacto(String contacto) {
-        this.contacto = contacto;
+    public void setProfesor(String profesor) {
+        this.profesor = profesor;
     }
 
-    public String getInformacion() {
-        return informacion;
+    public String getHorario() {
+        return horario;
     }
 
-    public void setInformacion(String informacion) {
-        this.informacion = informacion;
+    public void setHorario(String horario) {
+        this.horario = horario;
     }
+
+    public String getNivel() {
+        return nivel;
+    }
+
+    public void setNivel(String nivel) {
+        this.nivel = nivel;
+    }
+
+    
 
     public Idioma getIdioma() {
         return idioma;

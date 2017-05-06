@@ -5,6 +5,7 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!DOCTYPE html>
 <html>
     <head>
@@ -43,60 +44,32 @@
               <li><a href="#!">Mediateca</a></li>
             </ul>
             <br/>
-            <a class="btn" href="/ProyectoFinal/informacionIdioma">Información</a>
-            <br/>
             <table class="striped">
                 <thead>
                     <tr>
                         <th>Grupo</th>
+                        <th>Nivel</th>
                         <th>Profesor</th>
                         <th>Horario</th>
                     </tr>
                 </thead>
 
                 <tbody>
-                    <tr>
-                        <td>1233</td>
-                        <td>María Antonienta Roca</td>
-                        <td>Lunes,Miercoles,Viernes: 8:00-9:00</td>
-                    </tr>
-                    <tr>
-                        <td>1233</td>
-                        <td>Arturo Miranda</td>
-                        <td>Lunes,Miercoles,Viernes: 9:00-10:00</td>
-                    </tr>
-                    <tr>
-                        <td>3432</td>
-                        <td>Juan Carlos López</td>
-                        <td>Lunes,Miercoles,Viernes: 8:00-9:00</td>
-                    </tr>
+                    <c:forEach var="grupo" items="${grupos}">
+                        <tr>
+                            <td>${grupo.idGrupo}</td>
+                            <td>${grupo.nivel}</td>
+                            <td>${grupo.profesor}</td>
+                            <td>${grupo.horario}</td>
+                            <td>
+                                <a class="btn" href="/ProyectoFinal/registro?id=${grupo.idGrupo}">inscribir</a>
+                            </td>
+                        </tr>
+                    </c:forEach>
                 </tbody>
             </table>
             <br/>
-            <a class="btn" href="/ProyectoFinal/registro">registro</a>
-            <br/>
         </main>
-        <aside>
-            <ul >   
-                <li><a href="#!">Alemán</a></li>
-                <li><a href="#!">Árabe</a></li>
-                <li><a href="#!">Catalán</a></li>
-                <li><a href="#!">Chino</a></li>
-                <li><a href="#!">Coreano</a></li>
-                <li><a href="#!">Francés</a></li>
-                <li><a href="#!">Griego moderno</a></li>
-                <li><a href="#!">Hebreo</a></li>
-                <li><a href="#!">Inglés</a></li>
-                <li><a href="#!">Italiano</a></li>
-                <li><a href="#!">Japonés</a></li>
-                <li><a href="#!">Náhuatl</a></li>
-                <li><a href="#!">Portugués</a></li>
-                <li><a href="#!">Rumano</a></li>
-                <li><a href="#!">Ruso</a></li>
-                <li><a href="#!">Sueco</a></li>
-                <li><a href="#!">Vasco</a></li>
-            </ul>
-        </aside>
         <footer>
         </footer>
 

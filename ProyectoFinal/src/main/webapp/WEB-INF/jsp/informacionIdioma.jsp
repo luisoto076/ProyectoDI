@@ -10,9 +10,10 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
-        <title>Horarios</title>
+        <title>Idioma</title>
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <link href="css/general.css" type="text/css" rel="stylesheet" media="screen,projection"/>
         <link href="css/informacionIdioma.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     </head>
     <body>
@@ -43,60 +44,30 @@
               <li><a href="#!">Mediateca</a></li>
             </ul>
             <br/>
-            <a class="btn" href="/ProyectoFinal/informacionIdioma">Información</a>
-            <br/>
-            <table class="striped">
-                <thead>
-                    <tr>
-                        <th>Grupo</th>
-                        <th>Profesor</th>
-                        <th>Horario</th>
-                    </tr>
-                </thead>
-
-                <tbody>
-                    <tr>
-                        <td>1233</td>
-                        <td>María Antonienta Roca</td>
-                        <td>Lunes,Miercoles,Viernes: 8:00-9:00</td>
-                    </tr>
-                    <tr>
-                        <td>1233</td>
-                        <td>Arturo Miranda</td>
-                        <td>Lunes,Miercoles,Viernes: 9:00-10:00</td>
-                    </tr>
-                    <tr>
-                        <td>3432</td>
-                        <td>Juan Carlos López</td>
-                        <td>Lunes,Miercoles,Viernes: 8:00-9:00</td>
-                    </tr>
-                </tbody>
-            </table>
-            <br/>
-            <a class="btn" href="/ProyectoFinal/registro">registro</a>
-            <br/>
+            <div >
+                <h2 class="header">${idioma.nombre}</h2>
+                <div class="row">
+                    <div class="col s12 m6">
+                        <div class="card blue-grey darken-1">
+                            <div class="card-content white-text">
+                                <span class="card-title">Información</span>
+                                <p>${idioma.informacion}</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="col s12 m6">
+                        <div class="card blue-grey darken-1">
+                            <div class="card-content white-text">
+                                <span class="card-title">Contacto</span>
+                                <p>${idioma.contacto}</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="btn" href="/ProyectoFinal/horarios?id=${idioma.ididioma}">registro</a>
+                </div>
+            </div>
         </main>
-        <aside>
-            <ul >   
-                <li><a href="#!">Alemán</a></li>
-                <li><a href="#!">Árabe</a></li>
-                <li><a href="#!">Catalán</a></li>
-                <li><a href="#!">Chino</a></li>
-                <li><a href="#!">Coreano</a></li>
-                <li><a href="#!">Francés</a></li>
-                <li><a href="#!">Griego moderno</a></li>
-                <li><a href="#!">Hebreo</a></li>
-                <li><a href="#!">Inglés</a></li>
-                <li><a href="#!">Italiano</a></li>
-                <li><a href="#!">Japonés</a></li>
-                <li><a href="#!">Náhuatl</a></li>
-                <li><a href="#!">Portugués</a></li>
-                <li><a href="#!">Rumano</a></li>
-                <li><a href="#!">Ruso</a></li>
-                <li><a href="#!">Sueco</a></li>
-                <li><a href="#!">Vasco</a></li>
-            </ul>
-        </aside>
         <footer>
         </footer>
 

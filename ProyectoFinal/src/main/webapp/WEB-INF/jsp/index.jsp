@@ -13,7 +13,8 @@
         <title>Index</title>
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-        <link href="css/informacionIdioma.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <link href="css/general.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <link href="css/index_style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     </head>
     <body>
         <header>
@@ -29,9 +30,12 @@
                       </ul>
             </nav>
         </div>
-        </header>  
+        </header> 
+        <div class="parallax-container">
+            <div class="parallax"><img src="imagenes/parallax2.jpg"></div>
+        </div>
+        <br/>
         <main>
-            <br/>
             <a class='dropdown-button btn blue darken-3' href='#' data-activates='dropdown2'>
                 <i class="material-icons">menu</i>
             </a>
@@ -43,20 +47,18 @@
               <li><a href="#!">Mediateca</a></li>
             </ul>
             <br/>
-            <a class="btn" href="/ProyectoFinal/informacionIdioma">Información</a>
-            <br/>
-            <br/>
-            <a class="btn" href="/ProyectoFinal/registro">registro</a>
-            <br/>
-            <div class="carousel carousel-slider center" data-indicators="true">
+            
+            <div id="azul" class="carousel carousel-slider center" data-indicators="true">
                 <div class="carousel-fixed-item center with-indicators">
                     <a class="btn waves-effect white grey-text darken-text-2">button</a>
                 </div>
-                <div class="carousel-item red white-text" href="#one!">
-                    <h2>First Panel</h2>
-                    <p class="white-text">This is your first panel</p>
+                <div class="carousel-item blue white-text" href="#one!">
+                    <a href="#">
+                        <h2>First Panel</h2>
+                        <p class="white-text">This is your first panel</p>
+                    </a>
                 </div>
-                <div class="carousel-item amber white-text" href="#two!">
+                <div class="carousel-item blue white-text" href="#two!">
                     <h2>Second Panel</h2>
                     <p class="white-text">This is your second panel</p>
                 </div>
@@ -65,32 +67,87 @@
                     <p class="white-text">This is your third panel</p>
                 </div>
                 <div class="carousel-item blue white-text" href="#four!">
-                    <h2>Fourth Panel</h2>
-                    <p class="white-text">This is your fourth panel</p>
+                    <h2>Third Panel</h2>
+                    <p class="white-text">This is your third panel</p>
                 </div>
             </div>
+            
+            
+            <div class="slider">
+		    <ul class="slides">
+		      <li>
+				  <div class="card">
+    				<div class="card-image waves-effect waves-block waves-light">
+    				<!-- Aquí colocamos la clase de la imagen que queremos colocar -->
+						<div class="imagen-ingles activator"></div>
+    				</div>
+				    <div class="card-content">
+				      <span class="card-title activator grey-text text-darken-4">Idioma ingles<i class="material-icons right">more_vert</i></span>
+				      <p><a href="/ProyectoFinal/informacionIdioma?id=1">This is a link</a></p>
+				    </div>
+				    <div class="card-reveal">
+				      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right close">close</i></span>
+				      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+				    </div>
+				  </div>
+
+		      </li>
+		      <li>
+		        <div class="card">
+    				<div class="card-image waves-effect waves-block waves-light">
+    				<!-- Aquí colocamos la clase de la imagen que queremos colocar -->
+						<div class="imagen-frances activator"></div>
+    				</div>
+				    <div class="card-content">
+				      <span class="card-title activator grey-text text-darken-4">Idioma francés<i class="material-icons right">more_vert</i></span>
+				      <p><a href="/ProyectoFinal/infoIdioma?id=2">This is a link</a></p>
+				    </div>
+				    <div class="card-reveal">
+				      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right close">close</i></span>
+				      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+				    </div>
+				  </div>
+		      </li>
+		      <li>
+		        <div class="card">
+    				<div class="card-image waves-effect waves-block waves-light">
+    				<!-- Aquí colocamos la clase de la imagen que queremos colocar -->
+						<div class="imagen-aleman activator"></div>
+    				</div>
+				    <div class="card-content">
+				      <span class="card-title activator grey-text text-darken-4">Idioma alemán<i class="material-icons right">more_vert</i></span>
+				      <p><a href="/ProyectoFinal/infoIdioma?id=3">This is a link</a></p>
+				    </div>
+				    <div class="card-reveal">
+				      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right close">close</i></span>
+				      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+				    </div>
+				  </div>
+		      </li>
+		      <li>
+		        <div class="card">
+    				<div class="card-image waves-effect waves-block waves-light">
+    				<!-- Aquí colocamos la clase de la imagen que queremos colocar -->
+						<div class="imagen-japones activator"></div>
+    				</div>
+				    <div class="card-content">
+				      <span class="card-title activator grey-text text-darken-4">Idioma japones<i class="material-icons right">more_vert</i></span>
+				      <p><a href="#">This is a link</a></p>
+				    </div>
+				    <div class="card-reveal">
+				      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right close">close</i></span>
+				      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+				    </div>
+				  </div>
+		      </li>
+		    </ul>
+		  </div>
+            
+            
         </main>
-        <aside>
-            <ul >   
-                <li><a href="#!">Alemán</a></li>
-                <li><a href="#!">Árabe</a></li>
-                <li><a href="#!">Catalán</a></li>
-                <li><a href="#!">Chino</a></li>
-                <li><a href="#!">Coreano</a></li>
-                <li><a href="#!">Francés</a></li>
-                <li><a href="#!">Griego moderno</a></li>
-                <li><a href="#!">Hebreo</a></li>
-                <li><a href="#!">Inglés</a></li>
-                <li><a href="#!">Italiano</a></li>
-                <li><a href="#!">Japonés</a></li>
-                <li><a href="#!">Náhuatl</a></li>
-                <li><a href="#!">Portugués</a></li>
-                <li><a href="#!">Rumano</a></li>
-                <li><a href="#!">Ruso</a></li>
-                <li><a href="#!">Sueco</a></li>
-                <li><a href="#!">Vasco</a></li>
-            </ul>
-        </aside>
+        <div class="parallax-container">
+            <div class="parallax"><img src="imagenes/parallax2.jpg"></div>
+          </div>
         <footer>
         </footer>
 
@@ -99,7 +156,25 @@
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
   <script>
-       $('.carousel.carousel-slider').carousel();
+       $(document).ready(function(){
+            // Inicializamos el slider
+		      	$('.slider').slider();
+		      	/**
+			 	 * OPCIONAL. Script que detiene el slider si das click en los 3 puntitos para leer.
+				**/
+		      	$('.activator').click(function() {
+		      		$('.slider').slider('pause'); 
+		      	});
+		      	/**
+			 	 * OPCIONAL. Script que continua el avance de los slides.
+				**/
+		      	$('.close').click(function() {
+		      		$('.slider').slider('start'); 
+		      	});
+            $('.carousel.carousel-slider').carousel({dist:0});
+            $('.parallax').parallax();
+            $('#idiomas').css("height:350px !important;");
+       });
   </script>
   </body>
 </html>

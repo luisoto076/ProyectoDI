@@ -42,46 +42,6 @@ and open the template in the editor.
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#10a0e7', endColorstr='#2e2357', GradientType=1 );
  }
 
- .input-field{
-     width: 500px;
- }
- 
- table{
-     position: relative;
-     left: 20%;
-     max-width: 700px;
- }
-
-form{
-    position: absolute;
-    left: 350px;
-    top: 200px
-}
-
-.card{
-    background: red;
-    width: 300px;
-    height: 50px !important;
-    margin:0px
-}
-
 .parallax-container{
     height: 100px;
-}
-
-#azul {
-    position: inherit;
-    margin: auto;
-    height: 400px !important;
-    width: 100% !important;
-}
-#idiomas{
-   position: inherit;
-    margin: auto;
-    height: 200px !important;
-    width: 100% !important;
-}
-.testing.card {
-    width: 100%;
-    margin: 0 auto;
 }

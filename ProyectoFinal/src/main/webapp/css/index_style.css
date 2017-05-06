@@ -1,0 +1,75 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 24/04/2017, 02:28:42 AM
+    Author     : luis
+*/
+
+
+
+#azul {
+    margin: auto;
+    height: 400px;
+    width: 100% !important;
+}
+
+.carousel-item{
+    margin: auto;
+    height: 400px;
+    width: 400px!important
+}
+
+/*
+	Estas clases son importantes para que a cada slider le agreges la clase y el background que quieras poner en 
+	cada Card, algo importante a notar es que tienen un height fijo, por lo que ten cuidado a la hora colocar 
+	tus imágenes, para que el "height" lo ajustes al tamaño de tus imágenes. 
+*/
+.imagen-ingles {
+	background-image: url("../imagenes/ingles.jpg");
+	min-height: 200px;
+	max-height:  600px;
+	height: 300px;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	width: 100%;
+}
+.imagen-aleman {
+	background-image: url("../imagenes/aleman.png");
+	min-height: 200px;
+	max-height:  600px;
+	height: 300px;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	width: 100%;
+}
+.imagen-frances {
+	background-image: url("../imagenes/frances.jpeg");
+	min-height: 200px;
+	max-height:  600px;
+	height: 300px;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	width: 100%;
+}
+.imagen-japones {
+	background-image: url("../imagenes/japones.jpg");
+	min-height: 200px;
+	max-height:  600px;
+	height: 300px;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	width: 100%;
+}
+
+
