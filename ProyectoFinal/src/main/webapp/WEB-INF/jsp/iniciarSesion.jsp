@@ -43,8 +43,6 @@
               <li><a href="#!">Mediateca</a></li>
             </ul>
             <br/>
-            <a class="btn" href="/ProyectoFinal/informacionIdioma">Información</a>
-            <br/>
             <form  action="/ProyectoFinal/login" method="POST">  
                 <div class="input-field">
                     <label for="username">Usuario</label>
@@ -59,30 +57,7 @@
                 </div>
             </form>
             <br/>
-            <a class="btn" href="/ProyectoFinal/registro">registro</a>
-            <br/>
         </main>
-        <aside>
-            <ul >   
-                <li><a href="#!">Alemán</a></li>
-                <li><a href="#!">Árabe</a></li>
-                <li><a href="#!">Catalán</a></li>
-                <li><a href="#!">Chino</a></li>
-                <li><a href="#!">Coreano</a></li>
-                <li><a href="#!">Francés</a></li>
-                <li><a href="#!">Griego moderno</a></li>
-                <li><a href="#!">Hebreo</a></li>
-                <li><a href="#!">Inglés</a></li>
-                <li><a href="#!">Italiano</a></li>
-                <li><a href="#!">Japonés</a></li>
-                <li><a href="#!">Náhuatl</a></li>
-                <li><a href="#!">Portugués</a></li>
-                <li><a href="#!">Rumano</a></li>
-                <li><a href="#!">Ruso</a></li>
-                <li><a href="#!">Sueco</a></li>
-                <li><a href="#!">Vasco</a></li>
-            </ul>
-        </aside>
         <footer>
         </footer>
 

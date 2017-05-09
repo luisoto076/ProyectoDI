@@ -69,6 +69,7 @@
     <bean id="TrabajadorDAO" class="Modelo.TrabajadorDAO" p:sessionFactory-ref="hibernate4AnnotatedSessionFactory"/>
     <bean id="IdiomaDAO" class="Modelo.IdiomaDAO" p:sessionFactory-ref="hibernate4AnnotatedSessionFactory"/>
     <bean id="GrupoDAO" class="Modelo.GrupoDAO" p:sessionFactory-ref="hibernate4AnnotatedSessionFactory"/>
+    <bean id="InscripcionDAO" class="Modelo.InscripcionDAO" p:sessionFactory-ref="hibernate4AnnotatedSessionFactory"/>
     <!-- SpringSecurity -->
 
     <security:http pattern="/css/*" security="none"/>
@@ -77,7 +78,7 @@
       
     <security:http auto-config='true'>
         <security:intercept-url pattern="/" access="permitAll" />
-        <security:intercept-url pattern="/estudiante/*" access="hasRole('ESTUDIANTE')" />
+        <security:intercept-url pattern="/estudiante/*" access="hasAnyRole('ALUMNO','TRABAJADOR')" />
         <security:form-login login-page="/"
                              authentication-failure-url="/iniciarSesion?login_error=1"
                              default-target-url="/index?login_succes=1"
@@ -92,8 +93,9 @@
         <security:authentication-provider>
             <security:password-encoder hash="bcrypt" />
             <security:jdbc-user-service data-source-ref="dataSource" 
-             users-by-username-query= "select a.cuenta,e.contrasenia,1 from alumno a inner join estudiante e  on (a.idEstudiante = e.idEstudiante) where a.cuenta = ?;"
-             authorities-by-username-query="select a.cuenta,e.rol from alumno a inner join estudiante e  on (a.idEstudiante = e.idEstudiante) where  a.cuenta = ?;"
+             users-by-username-query= "select x.cuenta,x.contrasenia,1 from (	select * from (	select a.cuenta,e.contrasenia from alumno a inner join estudiante e  on (a.idEstudiante = e.idEstudiante)) d union( select t.rfc cuenta ,e.contrasenia from trabajador t inner join estudiante e  on (t.idEstudiante = e.idEstudiante))) x where x.cuenta = ?;"
+             authorities-by-username-query="select x.cuenta,x.rol from ( select * from ( select a.cuenta,e.contrasenia,e.rol from alumno a inner join estudiante e  on (a.idEstudiante = e.idEstudiante)) d union( select t.rfc cuenta ,e.contrasenia, e.rol from trabajador t inner join estudiante e  on (t.idEstudiante = e.idEstudiante))) x where x.cuenta = ?;"
+             
             />
         </security:authentication-provider>
     </security:authentication-manager>

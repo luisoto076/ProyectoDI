@@ -11,10 +11,13 @@ import Mapeo.Trabajador;
 import Modelo.AlumnoDAO;
 import Modelo.EstudianteDAO;
 import Modelo.TrabajadorDAO;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.ModelAndView;
 
 /**
  *
@@ -38,8 +41,12 @@ public class ICSesion {
     }
     
     @RequestMapping(value = "/index")
-    public String index(){
-        return "index";
+    public ModelAndView index(HttpServletRequest request){
+        HttpSession session = request.getSession();
+        boolean enSession = request.isUserInRole("ROLE_TRABAJADOR") || request.isUserInRole("ROLE_ALUMNO");
+        ModelAndView model = new ModelAndView("index");
+        model.addObject("enSesion", enSession);
+        return model;
     }
     
     /**
@@ -77,7 +84,11 @@ public class ICSesion {
     
     
     @RequestMapping(value = "/informacionIdioma")
-    public String  informacionIdioma(){
+    public String  informacionIdioma(HttpServletRequest request){
+        HttpSession session = request.getSession();
+        boolean enSession = request.isUserInRole("ROLE_TRABAJADOR") || request.isUserInRole("ROLE_ALUMNO");
+        ModelAndView model = new ModelAndView("informacionIdioma");
+        model.addObject("enSesion", enSession);
         return "informacionIdioma";
     }
     

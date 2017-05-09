@@ -18,20 +18,26 @@ and open the template in the editor.
     flex: 1 0 auto;
   }
   
- header {
-     /*background-color: #1a237e;
-     background-image: url("../imagenes/cele_unam_02.png");
-     background-repeat: no-repeat;*/
-     height: 103px
+ #header_img {
+    background-image: url("../imagenes/cele_unam_02.png");
+    background-color: #2D2357;
+    background-repeat: no-repeat;
+    height: 103px;
+    margin: 0px;
  }
  
  nav{
-     background-color: #2D2357;
-     height: 103px
+    background-color: #2D2357;
+    height: 40px;
+    font-weight: bold;
+    line-height: 30px
+ }
+ 
+ nav a{
+     font-size: small !important;
  }
  
  footer{
-    height: 40px;
     background: rgba(16,160,231,1);
     background: -moz-linear-gradient(left, rgba(16,160,231,1) 0%, rgba(1,126,198,1) 25%, rgba(25,102,175,1) 48%, rgba(46,35,87,1) 71%, rgba(46,35,87,1) 100%);
     background: -webkit-gradient(left top, right top, color-stop(0%, rgba(16,160,231,1)), color-stop(25%, rgba(1,126,198,1)), color-stop(48%, rgba(25,102,175,1)), color-stop(71%, rgba(46,35,87,1)), color-stop(100%, rgba(46,35,87,1)));
@@ -44,4 +50,18 @@ and open the template in the editor.
 
 .parallax-container{
     height: 100px;
+}
+
+.nav-wrapper > a{
+    margin-left: 10px; 
+    width: 300px!important;
+}
+
+.nav-wrapper > a:hover{
+    background: gray;
+}
+
+#dropdown2{
+    margin-left: 10px; 
+    width: 200px!important;
 }
