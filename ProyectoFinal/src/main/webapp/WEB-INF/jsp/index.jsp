@@ -19,7 +19,9 @@
     </head>
     <body>
         <header>
-            <div id="header_img"></div>
+            <a href="/ProyectoFinal/index">
+                <div id="header_img"></div>
+            </a>
             <nav>
               <div class="nav-wrapper">
                 <a class='dropdown-button' href='#' data-activates='dropdown2'>

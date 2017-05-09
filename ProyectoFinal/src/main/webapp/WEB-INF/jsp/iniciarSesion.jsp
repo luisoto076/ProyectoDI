@@ -10,39 +10,44 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
-        <title>Index</title>
+        <title>Iniciar Sesion</title>
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <link href="css/general.css" type="text/css" rel="stylesheet" media="screen,projection"/>
         <link href="css/informacionIdioma.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     </head>
     <body>
         <header>
-        <div class="nav-wrapper">
+            <div id="header_img"></div>
             <nav>
-                <a href="/ProyectoFinal/index" class="brand-logo">
-                    <img src="imagenes/cele_unam_02.png">
+              <div class="nav-wrapper">
+                <a class='dropdown-button' href='#' data-activates='dropdown2'>
+                    Menú
                 </a>
-                    <ul id="nav-mobile" class="right hide-on-med-and-down">
-                        <li><a href="/ProyectoFinal/iniciarSesion">Inicar Sesion</a></li>
-                        <li><a href="/ProyectoFinal/logout">Cerrar Sesion</a></li>
-                        <li> </li>
-                      </ul>
+                <!-- Dropdown Structure -->
+                <ul id='dropdown2' class='dropdown-content'>
+                    <c:if test="${enSesion}">
+                        <li><a href="/ProyectoFinal/estudiante/calificaciones">Calificaciones</a></li>
+                    </c:if>
+                    <li><a href="#!">Posgrados</a></li>
+                    <li><a href="#!">Exámenes</a></li>
+                    <li><a href="#!">Certificaciones</a></li>
+                    <li><a href="#!">Mediateca</a></li>
+                </ul>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <c:if test="${enSesion}">
+                        <li><a href="/ProyectoFinal/logout">Cerrar Sesión</a></li>
+                    </c:if>
+                    <c:if test="${!enSesion}">
+                        <li><a href="/ProyectoFinal/iniciarSesion">Iniciar Sesión</a></li>
+                    </c:if>
+                    <li><a href="badges.html">Components</a></li>
+                    <li><a href="collapsible.html">JavaScript</a></li>
+                </ul>
+              </div>
             </nav>
-        </div>
         </header>  
         <main>
-            <br/>
-            <a class='dropdown-button btn blue darken-3' href='#' data-activates='dropdown2'>
-                <i class="material-icons">menu</i>
-            </a>
-            <!-- Dropdown Structure -->
-            <ul id='dropdown2' class='dropdown-content'>
-              <li><a href="#!">Posgrados</a></li>
-              <li><a href="#!">Exámenes</a></li>
-              <li><a href="#!">Certificaciones</a></li>
-              <li><a href="#!">Mediateca</a></li>
-            </ul>
-            <br/>
             <form  action="/ProyectoFinal/login" method="POST">  
                 <div class="input-field">
                     <label for="username">Usuario</label>
@@ -58,7 +63,13 @@
             </form>
             <br/>
         </main>
-        <footer>
+        <footer class="page-footer">
+          <div class="footer-copyright">
+            <div class="container">
+            © 2014 Copyright Text
+            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+          </div>
         </footer>
 
   <!--  Scripts-->
