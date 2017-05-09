@@ -44,28 +44,26 @@
               <li><a href="#!">Mediateca</a></li>
             </ul>
             <br/>
-            <div >
+            <div class="container" style="text-align: justify">
                 <h2 class="header">${idioma.nombre}</h2>
                 <div class="row">
                     <div class="col s12 m6">
-                        <div class="card blue-grey darken-1">
-                            <div class="card-content white-text">
                                 <span class="card-title">Información</span>
                                 <p>${idioma.informacion}</p>
-                            </div>
-                        </div>
                     </div>
-                
-                    <div class="col s12 m6">
-                        <div class="card blue-grey darken-1">
-                            <div class="card-content white-text">
+                    <div class="col s12 m4 offset-m1">
                                 <span class="card-title">Contacto</span>
                                 <p>${idioma.contacto}</p>
+                                
+                        <div class="row">
+                            <div class="col s12 m1 offset-m3">
+                                <a class="btn" href="/ProyectoFinal/horarios?id=${idioma.ididioma}">registro</a>
                             </div>
                         </div>
                     </div>
-                    <a class="btn" href="/ProyectoFinal/horarios?id=${idioma.ididioma}">registro</a>
+                    
                 </div>
+                
             </div>
         </main>
         <footer>
