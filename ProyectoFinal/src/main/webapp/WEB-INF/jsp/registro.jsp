@@ -90,7 +90,7 @@
             <div class="row">
             <div class="input-field col s6">
                 <label for="last_name">RFC</label>
-                <input id="rfc" name="rfc" type="text" required/>
+                <input id="rfce" name="rfce" type="text" required/>
             </div>
             
              </div>
@@ -125,24 +125,33 @@
       });
   </script>
   <script type="text/javascript">
+      
 function mostrar(id) {
     if (id === "1") {
         $("#alumno").show();
         $("#trabajador").hide();
         $("#externo").hide();
-       
+        $("#ntrabajador").removeAttr("required");
+        $("#rfc").removeAttr("required");
+        $("#rfce").removeAttr("required");
     }
 
     if (id === "2") {
         $("#alumno").hide();
         $("#trabajador").show();
         $("#externo").hide();
+        $("#cuenta").removeAttr("required");
+        $("#carrera").removeAttr("required");
+        $("#rfce").removeAttr("required");
     }
 
     if (id === "3") {
         $("#alumno").hide();
         $("#trabajador").hide();
         $("#externo").show();
+        $("#cuenta").removeAttr("required");
+        $("#carrera").removeAttr("required");
+        $("#rfc").removeAttr("required");
     }
 
    }

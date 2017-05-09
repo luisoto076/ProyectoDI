@@ -56,9 +56,12 @@
                                 <p>${idioma.contacto}</p>
                                 
                         <div class="row">
+                            <form action="/ProyectoFinal/registro">
                             <div class="col s12 m1 offset-m3">
-                                <a class="btn" href="/ProyectoFinal/horarios?id=${idioma.ididioma}">registro</a>
+                                <!--<a class="btn" href="/ProyectoFinal/horarios?id=${idioma.ididioma}">registro</a>-->
+                                <button>Registrar</button>
                             </div>
+                            </form>
                         </div>
                     </div>
                     
