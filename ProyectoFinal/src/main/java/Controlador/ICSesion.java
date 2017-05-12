@@ -42,7 +42,6 @@ public class ICSesion {
     
     @RequestMapping(value = "/index")
     public ModelAndView index(HttpServletRequest request){
-        HttpSession session = request.getSession();
         boolean enSession = request.isUserInRole("ROLE_TRABAJADOR") || request.isUserInRole("ROLE_ALUMNO");
         ModelAndView model = new ModelAndView("index");
         model.addObject("enSesion", enSession);
@@ -85,7 +84,6 @@ public class ICSesion {
     
     @RequestMapping(value = "/informacionIdioma")
     public String  informacionIdioma(HttpServletRequest request){
-        HttpSession session = request.getSession();
         boolean enSession = request.isUserInRole("ROLE_TRABAJADOR") || request.isUserInRole("ROLE_ALUMNO");
         ModelAndView model = new ModelAndView("informacionIdioma");
         model.addObject("enSesion", enSession);
@@ -93,7 +91,10 @@ public class ICSesion {
     }
     
     @RequestMapping(value = "/iniciarSesion")
-    public String  iniciarSesion(){
-        return "iniciarSesion";
+    public ModelAndView  iniciarSesion(HttpServletRequest request){
+        boolean enSession = request.isUserInRole("ROLE_TRABAJADOR") || request.isUserInRole("ROLE_ALUMNO");
+        ModelAndView model = new ModelAndView("iniciarSesion");
+        model.addObject("enSesion", enSession);
+        return model;
     }
 }

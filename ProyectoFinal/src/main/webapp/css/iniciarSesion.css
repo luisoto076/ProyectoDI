@@ -4,24 +4,14 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
 /* 
-    Created on : 24/04/2017, 02:28:42 AM
+    Created on : 12/05/2017, 02:15:13 AM
     Author     : luis
 */
-
- 
- table{
-     position: relative;
-     left: 20%;
-     max-width: 700px;
- }
-
- form{
+form{
     position: inherit;
-    margin: 5% 17%;
-    left: 350px;
-    top: 200px
+     margin: 4em 30%;
 }
 
 .input-field{
-    width: 350px;
+    width: 450px;
 }

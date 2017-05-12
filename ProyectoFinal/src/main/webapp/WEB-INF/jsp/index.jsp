@@ -29,9 +29,6 @@
                 </a>
                 <!-- Dropdown Structure -->
                 <ul id='dropdown2' class='dropdown-content'>
-                    <c:if test="${enSesion}">
-                        <li><a href="/ProyectoFinal/estudiante/calificaciones">Calificaciones</a></li>
-                    </c:if>
                     <li><a href="#!">Posgrados</a></li>
                     <li><a href="#!">Exámenes</a></li>
                     <li><a href="#!">Certificaciones</a></li>
@@ -39,155 +36,139 @@
                 </ul>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
                     <c:if test="${enSesion}">
+                        <li><a href="/ProyectoFinal/estudiante/calificaciones">Calificaciones</a></li>
+                    </c:if>
+                    <c:if test="${enSesion}">
                         <li><a href="/ProyectoFinal/logout">Cerrar Sesión</a></li>
                     </c:if>
                     <c:if test="${!enSesion}">
                         <li><a href="/ProyectoFinal/iniciarSesion">Iniciar Sesión</a></li>
                     </c:if>
-                    <li><a href="badges.html">Components</a></li>
-                    <li><a href="collapsible.html">JavaScript</a></li>
                 </ul>
               </div>
             </nav>
         </header>
         <div class="parallax-container">
-            <div class="parallax"><img src="imagenes/parallax2.jpg"></div>
+            <div class="parallax"><img src="imagenes/cele_9.jpg"></div>
         </div>
         <br/>
         <main>
             <div id="azul" class="carousel carousel-slider center" data-indicators="true">
                 <div class="carousel-fixed-item center with-indicators">
-                    <a class="btn waves-effect white grey-text darken-text-2">button</a>
                 </div>
                 <div class="carousel-item blue white-text" href="#one!">
                     <a href="#">
-                        <h2>First Panel</h2>
-                        <p class="white-text">This is your first panel</p>
+                        <img src="imagenes/cele_carr.png">
                     </a>
                 </div>
                 <div class="carousel-item blue white-text" href="#two!">
-                    <h2>Second Panel</h2>
-                    <p class="white-text">This is your second panel</p>
+                    <img src="imagenes/cele_carr2.png">
                 </div>
                 <div class="carousel-item green white-text" href="#three!">
-                    <h2>Third Panel</h2>
-                    <p class="white-text">This is your third panel</p>
+                    <img src="imagenes/cele_carr3.png">
                 </div>
                 <div class="carousel-item blue white-text" href="#four!">
-                    <h2>Third Panel</h2>
-                    <p class="white-text">This is your third panel</p>
+                    <img src="imagenes/cele_carr4.png">
+                </div>
+                <div class="carousel-item blue white-text" href="#four!">
+                    <img src="imagenes/cele_carr5.png">
                 </div>
             </div>
-            
-            
+      
             <div class="slider">
 		    <ul class="slides">
-		      <li>
-				  <div class="card">
-    				<div class="card-image waves-effect waves-block waves-light">
-    				<!-- Aquí colocamos la clase de la imagen que queremos colocar -->
-						<div class="imagen-ingles activator"></div>
-    				</div>
-				    <div class="card-content">
-				      <span class="card-title activator grey-text text-darken-4">Idioma ingles<i class="material-icons right">more_vert</i></span>
-				      <p><a href="/ProyectoFinal/informacionIdioma?id=1">This is a link</a></p>
-				    </div>
-				    <div class="card-reveal">
-				      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right close">close</i></span>
-				      <p>Here is some more information about this product that is only revealed once clicked on.</p>
-				    </div>
-				  </div>
-
-		      </li>
-		      <li>
-		        <div class="card">
-    				<div class="card-image waves-effect waves-block waves-light">
-    				<!-- Aquí colocamos la clase de la imagen que queremos colocar -->
-						<div class="imagen-frances activator"></div>
-    				</div>
-				    <div class="card-content">
-				      <span class="card-title activator grey-text text-darken-4">Idioma francés<i class="material-icons right">more_vert</i></span>
-				      <p><a href="/ProyectoFinal/infoIdioma?id=2">This is a link</a></p>
-				    </div>
-				    <div class="card-reveal">
-				      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right close">close</i></span>
-				      <p>Here is some more information about this product that is only revealed once clicked on.</p>
-				    </div>
-				  </div>
-		      </li>
-		      <li>
-		        <div class="card">
-    				<div class="card-image waves-effect waves-block waves-light">
-    				<!-- Aquí colocamos la clase de la imagen que queremos colocar -->
-						<div class="imagen-aleman activator"></div>
-    				</div>
-				    <div class="card-content">
-				      <span class="card-title activator grey-text text-darken-4">Idioma alemán<i class="material-icons right">more_vert</i></span>
-				      <p><a href="/ProyectoFinal/infoIdioma?id=3">This is a link</a></p>
-				    </div>
-				    <div class="card-reveal">
-				      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right close">close</i></span>
-				      <p>Here is some more information about this product that is only revealed once clicked on.</p>
-				    </div>
-				  </div>
-		      </li>
-		      <li>
-		        <div class="card">
-    				<div class="card-image waves-effect waves-block waves-light">
-    				<!-- Aquí colocamos la clase de la imagen que queremos colocar -->
-						<div class="imagen-japones activator"></div>
-    				</div>
-				    <div class="card-content">
-				      <span class="card-title activator grey-text text-darken-4">Idioma japones<i class="material-icons right">more_vert</i></span>
-				      <p><a href="#">This is a link</a></p>
-				    </div>
-				    <div class="card-reveal">
-				      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right close">close</i></span>
-				      <p>Here is some more information about this product that is only revealed once clicked on.</p>
-				    </div>
-				  </div>
-		      </li>
+		       <li>
+		        <div class="imagen-idioma">
+                            <img src="imagenes/aleman.png" height="300px" width="">
+    				<div class="caption center-align">
+                                    <h3>Alemán</h3>
+                                    <a href="/ProyectoFinal/informacionIdioma?id=4">
+                                        <h4 class="light grey-text text-lighten-3">
+                                            información del idioma
+                                        </h4>
+                                    </a
+                                </div>
+                        </div>
+                        </li>
+                        <li>
+		        <div class="imagen-idioma">
+                                <img src="imagenes/frances.jpeg">
+    				<div class="caption center-align">
+                                    <h3>Francés</h3>
+                                    <a href="/ProyectoFinal/informacionIdioma?id=4">
+                                        <h4 class="light grey-text text-lighten-3">
+                                            información del idioma
+                                        </h4>
+                                    </a
+                                </div>
+                        </div>
+                        </li>
+                        <li>
+		        <div class="imagen-idioma">
+                                <img src="imagenes/ingles.jpg">
+    				<div class="caption center-align">
+                                    <h3>Inglés</h3>
+                                    <a href="/ProyectoFinal/informacionIdioma?id=4">
+                                        <h4 class="light grey-text text-lighten-3">
+                                            información del idioma
+                                        </h4>
+                                    </a
+                                </div>
+                        </div>
+                        </li>
+                        <li>
+		        <div class="imagen-idioma">
+                                <img src="imagenes/japones.jpg">
+    				<div class="caption center-align">
+                                    <h3>Japonés</h3>
+                                    <a href="/ProyectoFinal/informacionIdioma?id=4">
+                                        <h4 class="light grey-text text-lighten-3">
+                                            información del idioma
+                                        </h4>
+                                    </a>
+                                </div>
+                        </div>
+                        </li>
 		    </ul>
 		  </div>
-            
-            
         </main>
+            <div class="indicadores">
+                <a><i onclick="prev()" class="material-icons  medium">skip_previous</i></a>
+                <a><i onclick="next()" class="material-icons  medium">skip_next</i></a>
+            </div>
         <div class="parallax-container">
-            <div class="parallax"><img src="imagenes/parallax2.jpg"></div>
+            <div class="parallax"><img src="imagenes/cele_7.jpg"></div>
           </div>
         <footer class="page-footer">
           <div class="footer-copyright">
             <div class="container">
             © 2014 Copyright Text
-            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            <a class="grey-text text-lighten-4 right" href="next()">More Links</a>
             </div>
           </div>
         </footer>
 
   <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/jquery-2.2.3.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
   <script>
        $(document).ready(function(){
-            // Inicializamos el slider
-		      	$('.slider').slider();
-		      	/**
-			 	 * OPCIONAL. Script que detiene el slider si das click en los 3 puntitos para leer.
-				**/
-		      	$('.activator').click(function() {
-		      		$('.slider').slider('pause'); 
-		      	});
-		      	/**
-			 	 * OPCIONAL. Script que continua el avance de los slides.
-				**/
-		      	$('.close').click(function() {
-		      		$('.slider').slider('start'); 
-		      	});
+            $('.slider').slider({indicators:false});
+            $('.slider').slider('pause');
             $('.carousel.carousel-slider').carousel({dist:0});
             $('.parallax').parallax();
             $('#idiomas').css("height:350px !important;");
        });
+       
+       function prev(){
+           $('.slider').slider('prev');
+       }
+       
+       function next(){
+           $('.slider').slider('next');
+       }
+       
   </script>
   </body>
 </html>

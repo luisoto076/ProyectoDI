@@ -5,6 +5,7 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html>
     <head>
@@ -14,11 +15,13 @@
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
         <link href="css/general.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-        <link href="css/informacionIdioma.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <link href="css/iniciarSesion.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     </head>
     <body>
         <header>
-            <div id="header_img"></div>
+            <a href="/ProyectoFinal/index">
+                <div id="header_img"></div>
+            </a>
             <nav>
               <div class="nav-wrapper">
                 <a class='dropdown-button' href='#' data-activates='dropdown2'>
@@ -26,9 +29,6 @@
                 </a>
                 <!-- Dropdown Structure -->
                 <ul id='dropdown2' class='dropdown-content'>
-                    <c:if test="${enSesion}">
-                        <li><a href="/ProyectoFinal/estudiante/calificaciones">Calificaciones</a></li>
-                    </c:if>
                     <li><a href="#!">Posgrados</a></li>
                     <li><a href="#!">Exámenes</a></li>
                     <li><a href="#!">Certificaciones</a></li>
@@ -36,13 +36,14 @@
                 </ul>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
                     <c:if test="${enSesion}">
+                        <li><a href="/ProyectoFinal/estudiante/calificaciones">Calificaciones</a></li>
+                    </c:if>
+                    <c:if test="${enSesion}">
                         <li><a href="/ProyectoFinal/logout">Cerrar Sesión</a></li>
                     </c:if>
                     <c:if test="${!enSesion}">
                         <li><a href="/ProyectoFinal/iniciarSesion">Iniciar Sesión</a></li>
                     </c:if>
-                    <li><a href="badges.html">Components</a></li>
-                    <li><a href="collapsible.html">JavaScript</a></li>
                 </ul>
               </div>
             </nav>
@@ -50,7 +51,7 @@
         <main>
             <form  action="/ProyectoFinal/login" method="POST">  
                 <div class="input-field">
-                    <label for="username">Usuario</label>
+                    <label for="username">Número de cuenta o RFC</label>
                     <input id="username" name="username" type="text"/>
                 </div>
                 <div class="input-field">
@@ -61,7 +62,6 @@
                     <button id="btnSes" class="btn btn-primary btn-lg">Ingresar</button>
                 </div>
             </form>
-            <br/>
         </main>
         <footer class="page-footer">
           <div class="footer-copyright">

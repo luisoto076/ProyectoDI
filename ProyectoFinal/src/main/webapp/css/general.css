@@ -18,6 +18,7 @@ and open the template in the editor.
     flex: 1 0 auto;
   }
   
+
  #header_img {
     background-image: url("../imagenes/cele_unam_02.png");
     background-color: #2D2357;
@@ -49,7 +50,7 @@ and open the template in the editor.
  }
 
 .parallax-container{
-    height: 100px;
+    height: 150px;    
 }
 
 .nav-wrapper > a{

@@ -5,6 +5,7 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html>
     <head>
@@ -18,31 +19,36 @@
     </head>
     <body>
         <header>
-        <div class="nav-wrapper">
+            <a href="/ProyectoFinal/index">
+                <div id="header_img"></div>
+            </a>
             <nav>
-                <a href="/ProyectoFinal/index" class="brand-logo">
-                    <img src="imagenes/cele_unam_02.png">
+              <div class="nav-wrapper">
+                <a class='dropdown-button' href='#' data-activates='dropdown2'>
+                    Menú
                 </a>
-                    <ul id="nav-mobile" class="right hide-on-med-and-down">
-                        <li><a href="/ProyectoFinal/iniciarSesion">Inicar Sesion</a></li>
-                        <li><a href="/ProyectoFinal/logout">Cerrar Sesion</a></li>
-                        <li> </li>
-                      </ul>
+                <!-- Dropdown Structure -->
+                <ul id='dropdown2' class='dropdown-content'>
+                    <li><a href="#!">Posgrados</a></li>
+                    <li><a href="#!">Exámenes</a></li>
+                    <li><a href="#!">Certificaciones</a></li>
+                    <li><a href="#!">Mediateca</a></li>
+                </ul>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <c:if test="${enSesion}">
+                        <li><a href="/ProyectoFinal/estudiante/calificaciones">Calificaciones</a></li>
+                    </c:if>
+                    <c:if test="${enSesion}">
+                        <li><a href="/ProyectoFinal/logout">Cerrar Sesión</a></li>
+                    </c:if>
+                    <c:if test="${!enSesion}">
+                        <li><a href="/ProyectoFinal/iniciarSesion">Iniciar Sesión</a></li>
+                    </c:if>
+                </ul>
+              </div>
             </nav>
-        </div>
         </header>  
         <main>
-            <br/>
-            <a class='dropdown-button btn blue darken-3' href='#' data-activates='dropdown2'>
-                <i class="material-icons">menu</i>
-            </a>
-            <!-- Dropdown Structure -->
-            <ul id='dropdown2' class='dropdown-content'>
-              <li><a href="#!">Posgrados</a></li>
-              <li><a href="#!">Exámenes</a></li>
-              <li><a href="#!">Certificaciones</a></li>
-              <li><a href="#!">Mediateca</a></li>
-            </ul>
             <br/>
             <div class="container" style="text-align: justify">
                 <h2 class="header">${idioma.nombre}</h2>
@@ -56,12 +62,9 @@
                                 <p>${idioma.contacto}</p>
                                 
                         <div class="row">
-                            <form action="/ProyectoFinal/registro">
                             <div class="col s12 m1 offset-m3">
-                                <!--<a class="btn" href="/ProyectoFinal/horarios?id=${idioma.ididioma}">registro</a>-->
-                                <button>Registrar</button>
+                                <a class="btn" href="/ProyectoFinal/horarios?id=${idioma.ididioma}">horarios</a>
                             </div>
-                            </form>
                         </div>
                     </div>
                     
@@ -69,11 +72,17 @@
                 
             </div>
         </main>
-        <footer>
+        <footer class="page-footer">
+          <div class="footer-copyright">
+            <div class="container">
+            © 2014 Copyright Text
+            <a class="grey-text text-lighten-4 right" href="next()">More Links</a>
+            </div>
+          </div>
         </footer>
 
   <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/jquery-2.2.3.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
   </body>

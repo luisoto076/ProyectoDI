@@ -11,6 +11,7 @@ import Modelo.GrupoDAO;
 import Modelo.IdiomaDAO;
 import java.util.List;
 import java.util.Map;
+import javax.servlet.http.HttpServletRequest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -34,19 +35,22 @@ public class ConsultarHorarios {
     
     
     @RequestMapping(value = "/horarios", method = RequestMethod.GET)
-    public ModelAndView index(@RequestParam("id")int idIdioma){
-        Idioma idioma = id.getIdioma(idIdioma);
+    public ModelAndView index(@RequestParam("id")int idIdioma,HttpServletRequest request){
+        boolean enSession = request.isUserInRole("ROLE_TRABAJADOR") || request.isUserInRole("ROLE_ALUMNO");
         ModelAndView model = new ModelAndView("horarios");
         List<Grupo> lg = grupoBD.grupos(idIdioma);
         model.addObject("grupos",lg);
+        model.addObject("enSesion", enSession);
         return model;
     }
     
     
     @RequestMapping(value = "/informacionIdioma", method = RequestMethod.GET)
-    public ModelAndView getIdioma(@RequestParam("id") int idIdioma) {
+    public ModelAndView getIdioma(@RequestParam("id") int idIdioma,HttpServletRequest request) {
         Idioma idioma = id.getIdioma(idIdioma);
+        boolean enSession = request.isUserInRole("ROLE_TRABAJADOR") || request.isUserInRole("ROLE_ALUMNO");
         ModelAndView model = new ModelAndView("informacionIdioma");
+        model.addObject("enSesion", enSession);
         model.addObject("idioma", idioma);
         return model;
 

@@ -8,6 +8,7 @@ package Controlador;
 import Mapeo.Idioma;
 import Modelo.IdiomaDAO;
 import java.util.List;
+import javax.servlet.http.HttpServletRequest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -26,14 +27,12 @@ public class ConsultarInfo {
     private IdiomaDAO id;
     
     @RequestMapping(value = "/infoIdioma", method = RequestMethod.GET)
-    public ModelAndView getIdioma(@RequestParam("id") int idIdioma) {
-
+    public ModelAndView getIdioma(@RequestParam("id") int idIdioma,HttpServletRequest request) {
         Idioma idioma = id.getIdioma(idIdioma);
-
-        //return back to index.jsp
         ModelAndView model = new ModelAndView("infoIdioma");
         model.addObject("idioma", idioma);
-
+        boolean enSession = request.isUserInRole("ROLE_TRABAJADOR") || request.isUserInRole("ROLE_ALUMNO");
+        model.addObject("enSesion", enSession);
         return model;
 
     }

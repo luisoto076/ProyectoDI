@@ -20,7 +20,9 @@
     </head>
     <body>
         <header>
-            <div id="header_img"></div>
+            <a href="/ProyectoFinal/index">
+                <div id="header_img"></div>
+            </a>
             <nav>
               <div class="nav-wrapper">
                 <a class='dropdown-button' href='#' data-activates='dropdown2'>
@@ -28,9 +30,6 @@
                 </a>
                 <!-- Dropdown Structure -->
                 <ul id='dropdown2' class='dropdown-content'>
-                    <c:if test="${enSesion}">
-                        <li><a href="/ProyectoFinal/calificaciones">Calificaciones</a></li>
-                    </c:if>
                     <li><a href="#!">Posgrados</a></li>
                     <li><a href="#!">Exámenes</a></li>
                     <li><a href="#!">Certificaciones</a></li>
@@ -38,17 +37,18 @@
                 </ul>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
                     <c:if test="${enSesion}">
+                        <li><a href="/ProyectoFinal/estudiante/calificaciones">Calificaciones</a></li>
+                    </c:if>
+                    <c:if test="${enSesion}">
                         <li><a href="/ProyectoFinal/logout">Cerrar Sesión</a></li>
                     </c:if>
                     <c:if test="${!enSesion}">
                         <li><a href="/ProyectoFinal/iniciarSesion">Iniciar Sesión</a></li>
                     </c:if>
-                    <li><a href="badges.html">Components</a></li>
-                    <li><a href="collapsible.html">JavaScript</a></li>
                 </ul>
               </div>
             </nav>
-        </header>  
+        </header> 
         <main>
             <br/>
             <table class="striped">
