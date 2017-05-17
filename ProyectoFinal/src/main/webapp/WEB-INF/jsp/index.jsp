@@ -131,9 +131,9 @@
 		        <div class="imagen-idioma">
                                 <img src="imagenes/frances2.png">
     				<div class="caption center-align">
-                                    <h3>Francés</h3>
+                                    <h3 class="light black-text">Francés</h3>
                                     <a href="/ProyectoFinal/informacionIdioma?id=2">
-                                        <h4 class="light grey-text text-lighten-3">
+                                        <h4 class="light black-text text-lighten-3">
                                             información del idioma
                                         </h4>
                                     </a
@@ -144,9 +144,9 @@
 		        <div class="imagen-idioma">
                                 <img src="imagenes/ingles1.jpg">
     				<div class="caption center-align">
-                                    <h3>Inglés</h3>
+                                    <h3 class="light black-text">Inglés</h3>
                                     <a href="/ProyectoFinal/informacionIdioma?id=3">
-                                        <h4 class="light grey-text text-lighten-3">
+                                        <h4 class="light black-text text-lighten-3">
                                             información del idioma
                                         </h4>
                                     </a
