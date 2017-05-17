@@ -48,10 +48,10 @@
             </nav>
         </header>
         <main>
-            <form  action="/ProyectoFinal/registrar1" method="POST">
+            <form id="formValidate" action="/ProyectoFinal/registrar1" method="POST">
             <div class="input-field col s12">
                 <select id="status" name="status" onChange="mostrar(this.value);">
-                    <!--<option value="" disabled selected>Selecciona una opción</option>-->
+                    <option value="" disabled selected>Selecciona una opción</option>
                     <option value="1">Alumno UNAM</option>
                     <option value="2">Trabajador UNAM</option>
                     <option value="3">Externo</option>
@@ -76,7 +76,7 @@
             <div class="row">
             <div class="input-field col s6">
                 <label for="last_name">Numero de Cuenta</label>
-                <input id="cuenta" name="cuenta" type="text" required/>
+                <input id="cuenta" name="cuenta" class="validate" type="text"  pattern="[0-9]{9}" data-error="wrong" data-success="right" required/>
             </div>
             <div class="input-field col s6">
                 <label for="last_name">Carrera</label>
@@ -112,7 +112,7 @@
                     </div>
                     <div class="input-field col s6">
                       <label for="password">Confirmar Contraseña</label>
-                      <input id="password2" name="password2" type="password" class="validate" required/>
+                      <input id="password2" name="password2" type="password" class="validate"  required/>
                     </div>  
                 </div>
                 <input id="grupo" name="grupo" type="text" value="${idgrupo}"  hidden="true"/>
@@ -125,7 +125,7 @@
         <footer class="page-footer">
           <div class="footer-copyright">
             <div class="container">
-            © 2014 Copyright Text
+            © 2017 
             <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
             </div>
           </div>
@@ -141,6 +141,19 @@
       $(document).ready(function() {
       $('select').material_select();
       });
+  </script>
+  <script type="text/javascript"> 
+      $("#formValidate").validate({
+        rules: {
+            password: {
+		minlength: 5
+            },
+            password2: {
+        	minlength: 5,
+                equalTo: "#password"
+            }
+        }
+     });
   </script>
   <script type="text/javascript">
       

@@ -29,15 +29,15 @@
                 </a>
                 <!-- Dropdown Structure -->
                 <ul id='dropdown2' class='dropdown-content'>
-                    <li><a href="#!">Alemán</a></li>
+                    <li><a href="/ProyectoFinal/informacionIdioma?id=1">Alemán</a></li>
                     <li><a href="#!">Árabe</a></li>
                     <li><a href="#!">Catalán</a></li>
                     <li><a href="#!">Chino</a></li>
                     <li><a href="#!">Coreano</a></li>
-                    <li><a href="#!">Francés</a></li>
+                    <li><a href="/ProyectoFinal/informacionIdioma?id=3">Francés</a></li>
                     <li><a href="#!">Griego moderno</a></li>
                     <li><a href="#!">Hebreo</a></li>
-                    <li><a href="#!">Inglés</a></li>
+                    <li><a href="/ProyectoFinal/informacionIdioma?id=2">Inglés</a></li>
                     <li><a href="#!">Italiano</a></li>
                     <li><a href="#!">Japonés</a></li>
                     <li><a href="#!">Náhuatl</a></li>
@@ -90,28 +90,66 @@
         </div>
         <br/> -->
         <main>
-            <div id="azul" class="carousel carousel-slider center" data-indicators="true">
-                <div class="carousel-fixed-item center with-indicators">
+            <div id="azul" class="carousel carousel-slider center">
+                <div class="carousel-item blue white-text modal-trigger">
+                    <a href="#modal1"><img src="imagenes/cele_carr.png"></a>
                 </div>
-                <div class="carousel-item blue white-text" href="#one!">
-                    <a href="#">
-                        <img src="imagenes/cele_carr.png">
-                    </a>
+                <div class="carousel-item blue white-textmodal-trigger" href="#modal2">
+                    <a href="#modal2"><img src="imagenes/cele_carr2.png"></a>
                 </div>
-                <div class="carousel-item blue white-text" href="#two!">
-                    <img src="imagenes/cele_carr2.png">
+                <div class="carousel-item green white-text modal-trigger" href="#modal3">
+                    <a href="#modal3"><img src="imagenes/cele_carr3.png"></a>
                 </div>
-                <div class="carousel-item green white-text" href="#three!">
-                    <img src="imagenes/cele_carr3.png">
+                <div class="carousel-item blue white-text modal-trigger" href="#modal4">
+                    <a href="#modal4"><img src="imagenes/cele_carr4.png"></a>
                 </div>
-                <div class="carousel-item blue white-text" href="#four!">
-                    <img src="imagenes/cele_carr4.png">
-                </div>
-                <div class="carousel-item blue white-text" href="#four!">
-                    <img src="imagenes/cele_carr5.png">
+                <div class="carousel-item blue white-text modal-trigger" href="#modal5">
+                    <a href="#modal5"><img src="imagenes/cele_carr5.png"></a>
                 </div>
             </div>
-      
+            
+            <div id="modal1" class="modal">
+                <div class="modal-content">
+                    <img src="imagenes/cele_ext.jpg">
+                </div>
+                <div class="modal-footer">
+                    <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">cerrar</a>
+                </div>
+            </div>
+            
+            <div id="modal2" class="modal">
+                <div class="modal-content">
+                    <img src="imagenes/cele_ext2.jpg">
+                </div>
+                <div class="modal-footer">
+                    <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">cerrar</a>
+                </div>
+            </div>
+            <div id="modal3" class="modal">
+                <div class="modal-content">
+                    <img src="imagenes/cele_ext3.jpg">
+                </div>
+                <div class="modal-footer">
+                    <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">cerrar</a>
+                </div>
+            </div>
+            <div id="modal4" class="modal">
+                <div class="modal-content">
+                    <img src="imagenes/cele_ext4.jpg">
+                </div>
+                <div class="modal-footer">
+                    <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">cerrar</a>
+                </div>
+            </div>
+            <div id="modal5" class="modal">
+                <div class="modal-content">
+                    <img src="imagenes/cele_ext5.jpg">
+                </div>
+                <div class="modal-footer">
+                    <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">cerrar</a>
+                </div>
+            </div>
+            
             <div class="slider">
 		    <ul class="slides">
 		       <li>
@@ -179,7 +217,7 @@
         <footer class="page-footer">
           <div class="footer-copyright">
             <div class="container">
-            © 2014 Copyright Text
+            © 2017
             <a class="grey-text text-lighten-4 right" href="next()">More Links</a>
             </div>
           </div>
@@ -193,9 +231,10 @@
        $(document).ready(function(){
             $('.slider').slider({indicators:false});
             $('.slider').slider('pause');
-            $('.carousel.carousel-slider').carousel({dist:0});
+            $('.carousel.carousel-slider').carousel();
             $('.parallax').parallax();
             $('#idiomas').css("height:350px !important;");
+            $('.modal').modal();
        });
        
        function prev(){
