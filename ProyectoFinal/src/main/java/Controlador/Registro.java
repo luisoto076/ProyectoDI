@@ -17,6 +17,7 @@ import Modelo.TrabajadorDAO;
 import javax.servlet.http.HttpServletRequest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -26,7 +27,9 @@ import org.springframework.web.servlet.ModelAndView;
 /**
  *
  * @author daniicape
+ * 
  */
+@Controller
 public class Registro {
     
     @Autowired
@@ -45,8 +48,11 @@ public class Registro {
     private GrupoDAO grudb;
     
     @RequestMapping(value = "/registro1", method = RequestMethod.GET)
-    public ModelAndView getIdioma(@RequestParam("id") int idGrupo) {
+    public ModelAndView getIdioma(@RequestParam("id") int idGrupo,HttpServletRequest request) {
+        boolean enSession = request.isUserInRole("ROLE_TRABAJADOR") || request.isUserInRole("ROLE_ALUMNO");
         ModelAndView model = new ModelAndView("registro");
+        model.addObject("enSesion", enSession);
+        System.out.println(idGrupo);
         model.addObject("idgrupo", idGrupo);
         return model;
 
@@ -92,6 +98,7 @@ public class Registro {
                 trdb.guardar(tr);
                 break;
             default:
+                System.out.println(1/0);
         }
         Inscripcion ins = new Inscripcion();
         ins.setEstudiante(es);

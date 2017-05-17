@@ -5,6 +5,7 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html>
     <head>
@@ -27,9 +28,6 @@
                 </a>
                 <!-- Dropdown Structure -->
                 <ul id='dropdown2' class='dropdown-content'>
-                    <c:if test="${enSesion}">
-                        <li><a href="/ProyectoFinal/estudiante/calificaciones">Calificaciones</a></li>
-                    </c:if>
                     <li><a href="#!">Posgrados</a></li>
                     <li><a href="#!">Exámenes</a></li>
                     <li><a href="#!">Certificaciones</a></li>
@@ -37,24 +35,20 @@
                 </ul>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
                     <c:if test="${enSesion}">
+                        <li><a href="/ProyectoFinal/estudiante/calificaciones">Calificaciones</a></li>
+                    </c:if>
+                    <c:if test="${enSesion}">
                         <li><a href="/ProyectoFinal/logout">Cerrar Sesión</a></li>
                     </c:if>
                     <c:if test="${!enSesion}">
                         <li><a href="/ProyectoFinal/iniciarSesion">Iniciar Sesión</a></li>
                     </c:if>
-                    <li><a href="badges.html">Components</a></li>
-                    <li><a href="collapsible.html">JavaScript</a></li>
                 </ul>
               </div>
             </nav>
-        </header> 
+        </header>
         <main>
-       
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <form  action="/ProyectoFinal/registrar" method="POST">
+            <form  action="/ProyectoFinal/registrar1" method="POST">
             <div class="input-field col s12">
                 <select id="status" name="status" onChange="mostrar(this.value);">
                     <!--<option value="" disabled selected>Selecciona una opción</option>-->
@@ -121,6 +115,7 @@
                       <input id="password2" name="password2" type="password" class="validate" required/>
                     </div>  
                 </div>
+                <input id="grupo" name="grupo" type="text" value="${idgrupo}"  hidden="true"/>
                 <div class="form-group">
                     <button  type="submit" id="btnSes" class="btn btn-primary btn-lg">Aceptar</button>
                 </div>

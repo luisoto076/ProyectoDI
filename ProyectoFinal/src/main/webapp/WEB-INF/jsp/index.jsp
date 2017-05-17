@@ -82,7 +82,7 @@
                             <img src="imagenes/aleman.png" height="300px" width="">
     				<div class="caption center-align">
                                     <h3>Alemán</h3>
-                                    <a href="/ProyectoFinal/informacionIdioma?id=4">
+                                    <a href="/ProyectoFinal/informacionIdioma?id=1">
                                         <h4 class="light grey-text text-lighten-3">
                                             información del idioma
                                         </h4>
@@ -95,7 +95,7 @@
                                 <img src="imagenes/frances.jpeg">
     				<div class="caption center-align">
                                     <h3>Francés</h3>
-                                    <a href="/ProyectoFinal/informacionIdioma?id=4">
+                                    <a href="/ProyectoFinal/informacionIdioma?id=2">
                                         <h4 class="light grey-text text-lighten-3">
                                             información del idioma
                                         </h4>
@@ -108,7 +108,7 @@
                                 <img src="imagenes/ingles.jpg">
     				<div class="caption center-align">
                                     <h3>Inglés</h3>
-                                    <a href="/ProyectoFinal/informacionIdioma?id=4">
+                                    <a href="/ProyectoFinal/informacionIdioma?id=3">
                                         <h4 class="light grey-text text-lighten-3">
                                             información del idioma
                                         </h4>

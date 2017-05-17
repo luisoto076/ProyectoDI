@@ -68,7 +68,7 @@
                             <td>${grupo.profesor}</td>
                             <td>${grupo.horario}</td>
                             <td>
-                                <a class="btn" href="/ProyectoFinal/registro?id=${grupo.idGrupo}">inscribir</a>
+                                <a class="btn" href="/ProyectoFinal/registro1?id=${grupo.idGrupo}">inscribir</a>
                             </td>
                         </tr>
                     </c:forEach>
