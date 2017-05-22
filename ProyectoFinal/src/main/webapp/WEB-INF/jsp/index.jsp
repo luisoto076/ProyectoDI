@@ -167,11 +167,89 @@
                         </li>
                         <li>
 		        <div class="imagen-idioma">
+                            <img src="imagenes/arabia.png" height="300px" width="">
+    				<div class="caption center-align">
+                                    <h3>Árabe</h3>
+                                    <a href="/ProyectoFinal/informacionIdioma?id=1">
+                                        <h4 class="light grey-text text-lighten-3">
+                                            información del idioma
+                                        </h4>
+                                    </a
+                                </div>
+                        </div>
+                        </li>
+                        <li>
+		        <div class="imagen-idioma">
+                            <img src="imagenes/catalan.png" height="300px" width="">
+    				<div class="caption center-align">
+                                    <h3>Catalán</h3>
+                                    <a href="/ProyectoFinal/informacionIdioma?id=1">
+                                        <h4 class="light grey-text text-lighten-3">
+                                            información del idioma
+                                        </h4>
+                                    </a
+                                </div>
+                        </div>
+                        </li>
+                        <li>
+		        <div class="imagen-idioma">
+                            <img src="imagenes/china.png" height="300px" width="">
+    				<div class="caption center-align">
+                                    <h3>China</h3>
+                                    <a href="/ProyectoFinal/informacionIdioma?id=1">
+                                        <h4 class="light grey-text text-lighten-3">
+                                            información del idioma
+                                        </h4>
+                                    </a
+                                </div>
+                        </div>
+                        </li>
+                        <li>
+		        <div class="imagen-idioma">
+                            <img src="imagenes/corea.png" height="300px" width="">
+    				<div class="caption center-align">
+                                    <h3>Coreano</h3>
+                                    <a href="/ProyectoFinal/informacionIdioma?id=1">
+                                        <h4 class="light grey-text text-lighten-3">
+                                            información del idioma
+                                        </h4>
+                                    </a
+                                </div>
+                        </div>
+                        </li>
+                        <li>
+		        <div class="imagen-idioma">
                                 <img src="imagenes/frances2.png">
     				<div class="caption center-align">
                                     <h3 class="light black-text">Francés</h3>
                                     <a href="/ProyectoFinal/informacionIdioma?id=2">
                                         <h4 class="light black-text text-lighten-3">
+                                            información del idioma
+                                        </h4>
+                                    </a
+                                </div>
+                        </div>
+                        </li>
+                        <li>
+		        <div class="imagen-idioma">
+                            <img src="imagenes/grecia.png" height="300px" width="">
+    				<div class="caption center-align">
+                                    <h3>Griego Moderno</h3>
+                                    <a href="/ProyectoFinal/informacionIdioma?id=1">
+                                        <h4 class="light grey-text text-lighten-3">
+                                            información del idioma
+                                        </h4>
+                                    </a
+                                </div>
+                        </div>
+                        </li>
+                        <li>
+		        <div class="imagen-idioma">
+                            <img src="imagenes/hebreo.png" height="300px" width="">
+    				<div class="caption center-align">
+                                    <h3>Hebreo</h3>
+                                    <a href="/ProyectoFinal/informacionIdioma?id=1">
+                                        <h4 class="light grey-text text-lighten-3">
                                             información del idioma
                                         </h4>
                                     </a
@@ -193,9 +271,100 @@
                         </li>
                         <li>
 		        <div class="imagen-idioma">
+                            <img src="imagenes/italia.png" height="300px" width="">
+    				<div class="caption center-align">
+                                    <h3>Italiano</h3>
+                                    <a href="/ProyectoFinal/informacionIdioma?id=1">
+                                        <h4 class="light grey-text text-lighten-3">
+                                            información del idioma
+                                        </h4>
+                                    </a
+                                </div>
+                        </div>
+                        </li>
+                        <li>
+		        <div class="imagen-idioma">
                                 <img src="imagenes/japones.png">
     				<div class="caption center-align">
                                     <h3>Japonés</h3>
+                                    <a href="/ProyectoFinal/informacionIdioma?id=4">
+                                        <h4 class="light grey-text text-lighten-3">
+                                            información del idioma
+                                        </h4>
+                                    </a>
+                                </div>
+                        </div>
+                        </li>
+                        <li>
+		        <div class="imagen-idioma">
+                                <img src="imagenes/mexico.png">
+    				<div class="caption center-align">
+                                    <h3>Náhuatl</h3>
+                                    <a href="/ProyectoFinal/informacionIdioma?id=4">
+                                        <h4 class="light grey-text text-lighten-3">
+                                            información del idioma
+                                        </h4>
+                                    </a>
+                                </div>
+                        </div>
+                        </li>
+                        <li>
+		        <div class="imagen-idioma">
+                                <img src="imagenes/portugués.png">
+    				<div class="caption center-align">
+                                    <h3>Portugués</h3>
+                                    <a href="/ProyectoFinal/informacionIdioma?id=4">
+                                        <h4 class="light grey-text text-lighten-3">
+                                            información del idioma
+                                        </h4>
+                                    </a>
+                                </div>
+                        </div>
+                        </li>
+                        <li>
+		        <div class="imagen-idioma">
+                                <img src="imagenes/rumania.png">
+    				<div class="caption center-align">
+                                    <h3>Rumano</h3>
+                                    <a href="/ProyectoFinal/informacionIdioma?id=4">
+                                        <h4 class="light grey-text text-lighten-3">
+                                            información del idioma
+                                        </h4>
+                                    </a>
+                                </div>
+                        </div>
+                        </li>
+                        <li>
+		        <div class="imagen-idioma">
+                                <img src="imagenes/rusia.png">
+    				<div class="caption center-align">
+                                    <h3>Ruso</h3>
+                                    <a href="/ProyectoFinal/informacionIdioma?id=4">
+                                        <h4 class="light grey-text text-lighten-3">
+                                            información del idioma
+                                        </h4>
+                                    </a>
+                                </div>
+                        </div>
+                        </li>
+                        <li>
+		        <div class="imagen-idioma">
+                                <img src="imagenes/suecia.png">
+    				<div class="caption center-align">
+                                    <h3>Sueco</h3>
+                                    <a href="/ProyectoFinal/informacionIdioma?id=4">
+                                        <h4 class="light grey-text text-lighten-3">
+                                            información del idioma
+                                        </h4>
+                                    </a>
+                                </div>
+                        </div>
+                        </li>
+                        <li>
+		        <div class="imagen-idioma">
+                                <img src="imagenes/vasco.png">
+    				<div class="caption center-align">
+                                    <h3>Vasco</h3>
                                     <a href="/ProyectoFinal/informacionIdioma?id=4">
                                         <h4 class="light grey-text text-lighten-3">
                                             información del idioma
