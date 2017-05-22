@@ -149,16 +149,16 @@
                     <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">cerrar</a>
                 </div>
             </div>
-            
-            <div class="slider">
+            <h3 id="nuestros">Idiomas</h3>
+            <!--<div class="slider">
 		    <ul class="slides">
 		       <li>
 		        <div class="imagen-idioma">
                             <img src="imagenes/aleman.png" height="300px" width="">
     				<div class="caption center-align">
-                                    <h3>Alemán</h3>
+                                    <h3 class=" light black-text">Alemán</h3>
                                     <a href="/ProyectoFinal/informacionIdioma?id=1">
-                                        <h4 class="light grey-text text-lighten-3">
+                                        <h4 class="light black-text text-lighten-3">
                                             información del idioma
                                         </h4>
                                     </a
@@ -169,9 +169,9 @@
 		        <div class="imagen-idioma">
                             <img src="imagenes/arabia.png" height="300px" width="">
     				<div class="caption center-align">
-                                    <h3>Árabe</h3>
+                                    <h3 class="light black-text">Árabe</h3>
                                     <a href="/ProyectoFinal/informacionIdioma?id=1">
-                                        <h4 class="light grey-text text-lighten-3">
+                                        <h4 class=" light black-text text-lighten-3">
                                             información del idioma
                                         </h4>
                                     </a
@@ -182,9 +182,9 @@
 		        <div class="imagen-idioma">
                             <img src="imagenes/catalan.png" height="300px" width="">
     				<div class="caption center-align">
-                                    <h3>Catalán</h3>
+                                    <h3 class="light black-text">Catalán</h3>
                                     <a href="/ProyectoFinal/informacionIdioma?id=1">
-                                        <h4 class="light grey-text text-lighten-3">
+                                        <h4 class="light black-text text-lighten-3">
                                             información del idioma
                                         </h4>
                                     </a
@@ -195,9 +195,9 @@
 		        <div class="imagen-idioma">
                             <img src="imagenes/china.png" height="300px" width="">
     				<div class="caption center-align">
-                                    <h3>China</h3>
+                                    <h3 class="light black-text">China</h3>
                                     <a href="/ProyectoFinal/informacionIdioma?id=1">
-                                        <h4 class="light grey-text text-lighten-3">
+                                        <h4 class="light black-text text-lighten-3">
                                             información del idioma
                                         </h4>
                                     </a
@@ -208,9 +208,9 @@
 		        <div class="imagen-idioma">
                             <img src="imagenes/corea.png" height="300px" width="">
     				<div class="caption center-align">
-                                    <h3>Coreano</h3>
+                                    <h3 class="light black-text">Coreano</h3>
                                     <a href="/ProyectoFinal/informacionIdioma?id=1">
-                                        <h4 class="light grey-text text-lighten-3">
+                                        <h4 class="light black-text text-lighten-3">
                                             información del idioma
                                         </h4>
                                     </a
@@ -234,9 +234,9 @@
 		        <div class="imagen-idioma">
                             <img src="imagenes/grecia.png" height="300px" width="">
     				<div class="caption center-align">
-                                    <h3>Griego Moderno</h3>
+                                    <h3 class="light black-text">Griego Moderno</h3>
                                     <a href="/ProyectoFinal/informacionIdioma?id=1">
-                                        <h4 class="light grey-text text-lighten-3">
+                                        <h4 class="light black-text text-lighten-3">
                                             información del idioma
                                         </h4>
                                     </a
@@ -247,9 +247,9 @@
 		        <div class="imagen-idioma">
                             <img src="imagenes/hebreo.png" height="300px" width="">
     				<div class="caption center-align">
-                                    <h3>Hebreo</h3>
+                                    <h3 class="light black-text">Hebreo</h3>
                                     <a href="/ProyectoFinal/informacionIdioma?id=1">
-                                        <h4 class="light grey-text text-lighten-3">
+                                        <h4 class="light black-text text-lighten-3">
                                             información del idioma
                                         </h4>
                                     </a
@@ -273,9 +273,9 @@
 		        <div class="imagen-idioma">
                             <img src="imagenes/italia.png" height="300px" width="">
     				<div class="caption center-align">
-                                    <h3>Italiano</h3>
+                                    <h3 class="light black-text">Italiano</h3>
                                     <a href="/ProyectoFinal/informacionIdioma?id=1">
-                                        <h4 class="light grey-text text-lighten-3">
+                                        <h4 class="light black-text text-lighten-3">
                                             información del idioma
                                         </h4>
                                     </a
@@ -286,9 +286,9 @@
 		        <div class="imagen-idioma">
                                 <img src="imagenes/japones.png">
     				<div class="caption center-align">
-                                    <h3>Japonés</h3>
+                                    <h3 class="light black-text">Japonés</h3>
                                     <a href="/ProyectoFinal/informacionIdioma?id=4">
-                                        <h4 class="light grey-text text-lighten-3">
+                                        <h4 class="light black-text text-lighten-3">
                                             información del idioma
                                         </h4>
                                     </a>
@@ -299,9 +299,9 @@
 		        <div class="imagen-idioma">
                                 <img src="imagenes/mexico.png">
     				<div class="caption center-align">
-                                    <h3>Náhuatl</h3>
+                                    <h3 class="light black-text">Náhuatl</h3>
                                     <a href="/ProyectoFinal/informacionIdioma?id=4">
-                                        <h4 class="light grey-text text-lighten-3">
+                                        <h4 class="light black-text text-lighten-3">
                                             información del idioma
                                         </h4>
                                     </a>
@@ -312,9 +312,9 @@
 		        <div class="imagen-idioma">
                                 <img src="imagenes/portugués.png">
     				<div class="caption center-align">
-                                    <h3>Portugués</h3>
+                                    <h3 class="light black-text">Portugués</h3>
                                     <a href="/ProyectoFinal/informacionIdioma?id=4">
-                                        <h4 class="light grey-text text-lighten-3">
+                                        <h4 class="light black-text text-lighten-3">
                                             información del idioma
                                         </h4>
                                     </a>
@@ -325,9 +325,9 @@
 		        <div class="imagen-idioma">
                                 <img src="imagenes/rumania.png">
     				<div class="caption center-align">
-                                    <h3>Rumano</h3>
+                                    <h3 class="light black-text">Rumano</h3>
                                     <a href="/ProyectoFinal/informacionIdioma?id=4">
-                                        <h4 class="light grey-text text-lighten-3">
+                                        <h4 class="light black-text text-lighten-3">
                                             información del idioma
                                         </h4>
                                     </a>
@@ -338,9 +338,9 @@
 		        <div class="imagen-idioma">
                                 <img src="imagenes/rusia.png">
     				<div class="caption center-align">
-                                    <h3>Ruso</h3>
+                                    <h3 class="light black-text">Ruso</h3>
                                     <a href="/ProyectoFinal/informacionIdioma?id=4">
-                                        <h4 class="light grey-text text-lighten-3">
+                                        <h4 class="light black-text text-lighten-3">
                                             información del idioma
                                         </h4>
                                     </a>
@@ -351,9 +351,9 @@
 		        <div class="imagen-idioma">
                                 <img src="imagenes/suecia.png">
     				<div class="caption center-align">
-                                    <h3>Sueco</h3>
+                                    <h3 class="light black-text">Sueco</h3>
                                     <a href="/ProyectoFinal/informacionIdioma?id=4">
-                                        <h4 class="light grey-text text-lighten-3">
+                                        <h4 class="light black-text text-lighten-3">
                                             información del idioma
                                         </h4>
                                     </a>
@@ -364,9 +364,9 @@
 		        <div class="imagen-idioma">
                                 <img src="imagenes/vasco.png">
     				<div class="caption center-align">
-                                    <h3>Vasco</h3>
+                                    <h3 class="light black-text">Vasco</h3>
                                     <a href="/ProyectoFinal/informacionIdioma?id=4">
-                                        <h4 class="light grey-text text-lighten-3">
+                                        <h4 class="light black-text text-lighten-3">
                                             información del idioma
                                         </h4>
                                     </a>
@@ -374,12 +374,331 @@
                         </div>
                         </li>
 		    </ul>
-		  </div>
+		  </div> -->
+        <div class="row">
+        <div class="col s4 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="imagenes/aleman.png">
+              
+            </div>
+            <div class="card-content">
+                <h4>Alemán</h4>
+              <p>Desde 1966 el Departamento de Alemán del Centro de Enseñanza de Lenguas Extranjeras (CELE) 
+                  ofrece cursos semestrales de alemán en la modalidad presencial para los estudiantes 
+                  de licenciatura y posgrado, académicos y trabajadores del campus CU que cumplan con los 
+                  requisitos de ingreso</p>
+            </div>
+            <div class="card-action">
+              <a href="/ProyectoFinal/informacionIdioma?id=1">Más información</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s4 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="imagenes/arabia.png">
+              
+            </div>
+            <div class="card-content">
+                <h4>Árabe</h4>
+              <p>Desde 1966 el Departamento de Alemán del Centro de Enseñanza de Lenguas Extranjeras (CELE) 
+                  ofrece cursos semestrales de alemán en la modalidad presencial para los estudiantes 
+                  de licenciatura y posgrado, académicos y trabajadores del campus CU que cumplan con los 
+                  requisitos de ingreso</p>
+            </div>
+            <div class="card-action">
+              <a href="/ProyectoFinal/informacionIdioma?id=1">Más información</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s4 m4">
+          <div class="card">
+            <div class="card-image black-text">
+              <img src="imagenes/catalan.png">
+              
+            </div>
+            <div class="card-content">
+                <h4>Catalán</h4>
+              <p>Desde 1966 el Departamento de Alemán del Centro de Enseñanza de Lenguas Extranjeras (CELE) 
+                  ofrece cursos semestrales de alemán en la modalidad presencial para los estudiantes 
+                  de licenciatura y posgrado, académicos y trabajadores del campus CU que cumplan con los 
+                  requisitos de ingreso</p>
+            </div>
+            <div class="card-action">
+              <a href="/ProyectoFinal/informacionIdioma?id=1">Más información</a>
+            </div>
+          </div>
+        </div>    
+      </div>
+            <div class="row">
+        <div class="col s4 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="imagenes/china.png">
+              
+            </div>
+            <div class="card-content">
+                <h4>Chino</h4>
+              <p>Desde 1966 el Departamento de Alemán del Centro de Enseñanza de Lenguas Extranjeras (CELE) 
+                  ofrece cursos semestrales de alemán en la modalidad presencial para los estudiantes 
+                  de licenciatura y posgrado, académicos y trabajadores del campus CU que cumplan con los 
+                  requisitos de ingreso</p>
+            </div>
+            <div class="card-action">
+              <a href="/ProyectoFinal/informacionIdioma?id=1">Más información</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s4 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="imagenes/corea.png">
+              
+            </div>
+            <div class="card-content">
+                <h4>Coreano</h4>
+              <p>Desde 1966 el Departamento de Alemán del Centro de Enseñanza de Lenguas Extranjeras (CELE) 
+                  ofrece cursos semestrales de alemán en la modalidad presencial para los estudiantes 
+                  de licenciatura y posgrado, académicos y trabajadores del campus CU que cumplan con los 
+                  requisitos de ingreso</p>
+            </div>
+            <div class="card-action">
+              <a href="/ProyectoFinal/informacionIdioma?id=1">Más información</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s4 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="imagenes/frances2.png">
+              
+            </div>
+            <div class="card-content">
+                <h4>Francés</h4>
+              <p>Desde 1966 el Departamento de Alemán del Centro de Enseñanza de Lenguas Extranjeras (CELE) 
+                  ofrece cursos semestrales de alemán en la modalidad presencial para los estudiantes 
+                  de licenciatura y posgrado, académicos y trabajadores del campus CU que cumplan con los 
+                  requisitos de ingreso</p>
+            </div>
+            <div class="card-action">
+              <a href="/ProyectoFinal/informacionIdioma?id=1">Más información</a>
+            </div>
+          </div>
+        </div>    
+      </div>
+       <div class="row">
+        <div class="col s4 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="imagenes/grecia.png">
+              
+            </div>
+            <div class="card-content">
+                <h4>Griego Moderno</h4>  
+              <p>Desde 1966 el Departamento de Alemán del Centro de Enseñanza de Lenguas Extranjeras (CELE) 
+                  ofrece cursos semestrales de alemán en la modalidad presencial para los estudiantes 
+                  de licenciatura y posgrado, académicos y trabajadores del campus CU que cumplan con los 
+                  requisitos de ingreso</p>
+            </div>
+            <div class="card-action">
+              <a href="/ProyectoFinal/informacionIdioma?id=1">Más información</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s4 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="imagenes/hebreo.png">
+              
+            </div>
+            <div class="card-content">
+                <h4>Hebreo</h4>
+              <p>Desde 1966 el Departamento de Alemán del Centro de Enseñanza de Lenguas Extranjeras (CELE) 
+                  ofrece cursos semestrales de alemán en la modalidad presencial para los estudiantes 
+                  de licenciatura y posgrado, académicos y trabajadores del campus CU que cumplan con los 
+                  requisitos de ingreso</p>
+            </div>
+            <div class="card-action">
+              <a href="/ProyectoFinal/informacionIdioma?id=1">Más información</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s4 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="imagenes/ingles1.jpg">
+              
+            </div>
+            <div class="card-content">
+                <h4>Inglés</h4>
+              <p>Desde 1966 el Departamento de Alemán del Centro de Enseñanza de Lenguas Extranjeras (CELE) 
+                  ofrece cursos semestrales de alemán en la modalidad presencial para los estudiantes 
+                  de licenciatura y posgrado, académicos y trabajadores del campus CU que cumplan con los 
+                  requisitos de ingreso</p>
+            </div>
+            <div class="card-action">
+              <a href="/ProyectoFinal/informacionIdioma?id=1">Más información</a>
+            </div>
+          </div>
+        </div>    
+      </div>
+        <div class="row">
+        <div class="col s4 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="imagenes/italia.png">
+              
+            </div>
+            <div class="card-content">
+                <h4>Italiano</h4>
+              <p>Desde 1966 el Departamento de Alemán del Centro de Enseñanza de Lenguas Extranjeras (CELE) 
+                  ofrece cursos semestrales de alemán en la modalidad presencial para los estudiantes 
+                  de licenciatura y posgrado, académicos y trabajadores del campus CU que cumplan con los 
+                  requisitos de ingreso</p>
+            </div>
+            <div class="card-action">
+              <a href="/ProyectoFinal/informacionIdioma?id=1">Más información</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s4 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="imagenes/japones.png">
+              
+            </div>
+            <div class="card-content">
+                <h4>Japonés</h4>
+              <p>Desde 1966 el Departamento de Alemán del Centro de Enseñanza de Lenguas Extranjeras (CELE) 
+                  ofrece cursos semestrales de alemán en la modalidad presencial para los estudiantes 
+                  de licenciatura y posgrado, académicos y trabajadores del campus CU que cumplan con los 
+                  requisitos de ingreso</p>
+            </div>
+            <div class="card-action">
+              <a href="/ProyectoFinal/informacionIdioma?id=1">Más información</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s4 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="imagenes/mexico.png">
+              
+            </div>
+            <div class="card-content">
+                <h4>Náhuatl</h4>
+              <p>Desde 1966 el Departamento de Alemán del Centro de Enseñanza de Lenguas Extranjeras (CELE) 
+                  ofrece cursos semestrales de alemán en la modalidad presencial para los estudiantes 
+                  de licenciatura y posgrado, académicos y trabajadores del campus CU que cumplan con los 
+                  requisitos de ingreso</p>
+            </div>
+            <div class="card-action">
+              <a href="/ProyectoFinal/informacionIdioma?id=1">Más información</a>
+            </div>
+          </div>
+        </div>    
+      </div>
+       <div class="row">
+        <div class="col s4 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="imagenes/portugués.png">
+              
+            </div>
+            <div class="card-content">
+                <h4>Portugués</h4>
+              <p>Desde 1966 el Departamento de Alemán del Centro de Enseñanza de Lenguas Extranjeras (CELE) 
+                  ofrece cursos semestrales de alemán en la modalidad presencial para los estudiantes 
+                  de licenciatura y posgrado, académicos y trabajadores del campus CU que cumplan con los 
+                  requisitos de ingreso</p>
+            </div>
+            <div class="card-action">
+              <a href="/ProyectoFinal/informacionIdioma?id=1">Más información</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s4 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="imagenes/rumania.png">
+              
+            </div>
+            <div class="card-content">
+                <h4>Rumano</h4>
+              <p>Desde 1966 el Departamento de Alemán del Centro de Enseñanza de Lenguas Extranjeras (CELE) 
+                  ofrece cursos semestrales de alemán en la modalidad presencial para los estudiantes 
+                  de licenciatura y posgrado, académicos y trabajadores del campus CU que cumplan con los 
+                  requisitos de ingreso</p>
+            </div>
+            <div class="card-action">
+              <a href="/ProyectoFinal/informacionIdioma?id=1">Más información</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s4 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="imagenes/rusia.png">
+              
+            </div>
+            <div class="card-content">
+                <h4>Ruso</h4>
+              <p>Desde 1966 el Departamento de Alemán del Centro de Enseñanza de Lenguas Extranjeras (CELE) 
+                  ofrece cursos semestrales de alemán en la modalidad presencial para los estudiantes 
+                  de licenciatura y posgrado, académicos y trabajadores del campus CU que cumplan con los 
+                  requisitos de ingreso</p>
+            </div>
+            <div class="card-action">
+              <a href="/ProyectoFinal/informacionIdioma?id=1">Más información</a>
+            </div>
+          </div>
+        </div>    
+      </div>
+       <div class="row">
+        <div class="col s4 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="imagenes/suecia.png">
+              
+            </div>
+            <div class="card-content">
+                <h4>Sueco</h4>
+              <p>Desde 1966 el Departamento de Alemán del Centro de Enseñanza de Lenguas Extranjeras (CELE) 
+                  ofrece cursos semestrales de alemán en la modalidad presencial para los estudiantes 
+                  de licenciatura y posgrado, académicos y trabajadores del campus CU que cumplan con los 
+                  requisitos de ingreso</p>
+            </div>
+            <div class="card-action">
+              <a href="/ProyectoFinal/informacionIdioma?id=1">Más información</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s4 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="imagenes/vasco.png">
+              
+            </div>
+            <div class="card-content">
+                <h4>Vasco</h4>
+              <p>Desde 1966 el Departamento de Alemán del Centro de Enseñanza de Lenguas Extranjeras (CELE) 
+                  ofrece cursos semestrales de alemán en la modalidad presencial para los estudiantes 
+                  de licenciatura y posgrado, académicos y trabajadores del campus CU que cumplan con los 
+                  requisitos de ingreso</p>
+            </div>
+            <div class="card-action">
+              <a href="/ProyectoFinal/informacionIdioma?id=1">Más información</a>
+            </div>
+          </div>
+        </div>
+          
+      </div>     
         </main>
-            <div class="indicadores">
+            <!--<div class="indicadores">
                 <a><i onclick="prev()" class="material-icons  medium">skip_previous</i></a>
                 <a><i onclick="next()" class="material-icons  medium">skip_next</i></a>
-            </div>
+            </div> -->
         <!--<div class="parallax-container">
             <div class="parallax"><img src="imagenes/cele_7.jpg"></div>
           </div> -->
@@ -398,8 +717,9 @@
   <script src="js/init.js"></script>
   <script>
        $(document).ready(function(){
-            $('.slider').slider({indicators:false});
+            $('.slider').slider({indicators:true});
             $('.slider').slider('pause');
+           
             $('.carousel.carousel-slider').carousel();
             $('.parallax').parallax();
             $('#idiomas').css("height:350px !important;");
