@@ -42,7 +42,6 @@ public class InscribirCurso {
     @RequestMapping(value= "/registrar", method = RequestMethod.POST)
     public String registrar(ModelMap model,HttpServletRequest request){
     BCryptPasswordEncoder passwordEncoder = new BCryptPasswordEncoder();    
-    System.out.println("Ya entro");   
     Estudiante estudiante = new Estudiante();
     Alumno alumno = new Alumno();
     String nombre = request.getParameter("nombre");

@@ -150,11 +150,11 @@
                 </div>
             </div>
             <h3 id="nuestros">Idiomas</h3>
-            <!--<div class="slider">
+            <div class="slider">
 		    <ul class="slides">
 		       <li>
 		        <div class="imagen-idioma">
-                            <img src="imagenes/aleman.png" height="300px" width="">
+                            <img src="imagenes/alemanf.png" height="300px" width="">
     				<div class="caption center-align">
                                     <h3 class=" light black-text">Alemán</h3>
                                     <a href="/ProyectoFinal/informacionIdioma?id=1">
@@ -167,7 +167,7 @@
                         </li>
                         <li>
 		        <div class="imagen-idioma">
-                            <img src="imagenes/arabia.png" height="300px" width="">
+                            <img src="imagenes/arabiaf.png" height="300px" width="">
     				<div class="caption center-align">
                                     <h3 class="light black-text">Árabe</h3>
                                     <a href="/ProyectoFinal/informacionIdioma?id=1">
@@ -180,7 +180,7 @@
                         </li>
                         <li>
 		        <div class="imagen-idioma">
-                            <img src="imagenes/catalan.png" height="300px" width="">
+                            <img src="imagenes/catalanf.png" height="300px" width="">
     				<div class="caption center-align">
                                     <h3 class="light black-text">Catalán</h3>
                                     <a href="/ProyectoFinal/informacionIdioma?id=1">
@@ -193,7 +193,7 @@
                         </li>
                         <li>
 		        <div class="imagen-idioma">
-                            <img src="imagenes/china.png" height="300px" width="">
+                            <img src="imagenes/chinaf.png" height="300px" width="">
     				<div class="caption center-align">
                                     <h3 class="light black-text">China</h3>
                                     <a href="/ProyectoFinal/informacionIdioma?id=1">
@@ -206,7 +206,7 @@
                         </li>
                         <li>
 		        <div class="imagen-idioma">
-                            <img src="imagenes/corea.png" height="300px" width="">
+                            <img src="imagenes/coreaf.png" height="300px" width="">
     				<div class="caption center-align">
                                     <h3 class="light black-text">Coreano</h3>
                                     <a href="/ProyectoFinal/informacionIdioma?id=1">
@@ -219,7 +219,7 @@
                         </li>
                         <li>
 		        <div class="imagen-idioma">
-                                <img src="imagenes/frances2.png">
+                                <img src="imagenes/francesf.png">
     				<div class="caption center-align">
                                     <h3 class="light black-text">Francés</h3>
                                     <a href="/ProyectoFinal/informacionIdioma?id=2">
@@ -232,7 +232,7 @@
                         </li>
                         <li>
 		        <div class="imagen-idioma">
-                            <img src="imagenes/grecia.png" height="300px" width="">
+                            <img src="imagenes/greciaf.png" height="300px" width="">
     				<div class="caption center-align">
                                     <h3 class="light black-text">Griego Moderno</h3>
                                     <a href="/ProyectoFinal/informacionIdioma?id=1">
@@ -245,7 +245,7 @@
                         </li>
                         <li>
 		        <div class="imagen-idioma">
-                            <img src="imagenes/hebreo.png" height="300px" width="">
+                            <img src="imagenes/hebreof.png" height="300px" width="">
     				<div class="caption center-align">
                                     <h3 class="light black-text">Hebreo</h3>
                                     <a href="/ProyectoFinal/informacionIdioma?id=1">
@@ -258,7 +258,7 @@
                         </li>
                         <li>
 		        <div class="imagen-idioma">
-                                <img src="imagenes/ingles1.jpg">
+                                <img src="imagenes/inglesf.jpg">
     				<div class="caption center-align">
                                     <h3 class="light black-text">Inglés</h3>
                                     <a href="/ProyectoFinal/informacionIdioma?id=3">
@@ -271,7 +271,7 @@
                         </li>
                         <li>
 		        <div class="imagen-idioma">
-                            <img src="imagenes/italia.png" height="300px" width="">
+                            <img src="imagenes/italiaf.png" height="300px" width="">
     				<div class="caption center-align">
                                     <h3 class="light black-text">Italiano</h3>
                                     <a href="/ProyectoFinal/informacionIdioma?id=1">
@@ -284,7 +284,7 @@
                         </li>
                         <li>
 		        <div class="imagen-idioma">
-                                <img src="imagenes/japones.png">
+                                <img src="imagenes/japonesf.png">
     				<div class="caption center-align">
                                     <h3 class="light black-text">Japonés</h3>
                                     <a href="/ProyectoFinal/informacionIdioma?id=4">
@@ -297,7 +297,7 @@
                         </li>
                         <li>
 		        <div class="imagen-idioma">
-                                <img src="imagenes/mexico.png">
+                                <img src="imagenes/mexicof.png">
     				<div class="caption center-align">
                                     <h3 class="light black-text">Náhuatl</h3>
                                     <a href="/ProyectoFinal/informacionIdioma?id=4">
@@ -310,7 +310,7 @@
                         </li>
                         <li>
 		        <div class="imagen-idioma">
-                                <img src="imagenes/portugués.png">
+                                <img src="imagenes/portuguésf.png">
     				<div class="caption center-align">
                                     <h3 class="light black-text">Portugués</h3>
                                     <a href="/ProyectoFinal/informacionIdioma?id=4">
@@ -323,7 +323,7 @@
                         </li>
                         <li>
 		        <div class="imagen-idioma">
-                                <img src="imagenes/rumania.png">
+                                <img src="imagenes/rumaniaf.png">
     				<div class="caption center-align">
                                     <h3 class="light black-text">Rumano</h3>
                                     <a href="/ProyectoFinal/informacionIdioma?id=4">
@@ -336,7 +336,7 @@
                         </li>
                         <li>
 		        <div class="imagen-idioma">
-                                <img src="imagenes/rusia.png">
+                                <img src="imagenes/rusiaf.png">
     				<div class="caption center-align">
                                     <h3 class="light black-text">Ruso</h3>
                                     <a href="/ProyectoFinal/informacionIdioma?id=4">
@@ -349,7 +349,7 @@
                         </li>
                         <li>
 		        <div class="imagen-idioma">
-                                <img src="imagenes/suecia.png">
+                                <img src="imagenes/sueciaf.png">
     				<div class="caption center-align">
                                     <h3 class="light black-text">Sueco</h3>
                                     <a href="/ProyectoFinal/informacionIdioma?id=4">
@@ -362,7 +362,7 @@
                         </li>
                         <li>
 		        <div class="imagen-idioma">
-                                <img src="imagenes/vasco.png">
+                                <img src="imagenes/vascof.png">
     				<div class="caption center-align">
                                     <h3 class="light black-text">Vasco</h3>
                                     <a href="/ProyectoFinal/informacionIdioma?id=4">
@@ -374,7 +374,8 @@
                         </div>
                         </li>
 		    </ul>
-		  </div> -->
+		  </div> 
+            <!--
         <div class="row">
         <div class="col s4 m4">
           <div class="card">
@@ -693,7 +694,8 @@
           </div>
         </div>
           
-      </div>     
+      </div> 
+            -->
         </main>
             <!--<div class="indicadores">
                 <a><i onclick="prev()" class="material-icons  medium">skip_previous</i></a>
