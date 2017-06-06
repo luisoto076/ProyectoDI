@@ -170,7 +170,7 @@
                             <img src="imagenes/arabiaf.png" height="300px" width="">
     				<div class="caption center-align">
                                     <h3 class="light black-text">Árabe</h3>
-                                    <a href="/ProyectoFinal/informacionIdioma?id=1">
+                                    <a href="/ProyectoFinal/informacionIdioma?id=4">
                                         <h4 class=" light black-text text-lighten-3">
                                             información del idioma
                                         </h4>
@@ -183,7 +183,7 @@
                             <img src="imagenes/catalanf.png" height="300px" width="">
     				<div class="caption center-align">
                                     <h3 class="light black-text">Catalán</h3>
-                                    <a href="/ProyectoFinal/informacionIdioma?id=1">
+                                    <a href="/ProyectoFinal/informacionIdioma?id=5">
                                         <h4 class="light black-text text-lighten-3">
                                             información del idioma
                                         </h4>
@@ -196,7 +196,7 @@
                             <img src="imagenes/chinaf.png" height="300px" width="">
     				<div class="caption center-align">
                                     <h3 class="light black-text">China</h3>
-                                    <a href="/ProyectoFinal/informacionIdioma?id=1">
+                                    <a href="/ProyectoFinal/informacionIdioma?id=6">
                                         <h4 class="light black-text text-lighten-3">
                                             información del idioma
                                         </h4>
@@ -209,7 +209,7 @@
                             <img src="imagenes/coreaf.png" height="300px" width="">
     				<div class="caption center-align">
                                     <h3 class="light black-text">Coreano</h3>
-                                    <a href="/ProyectoFinal/informacionIdioma?id=1">
+                                    <a href="/ProyectoFinal/informacionIdioma?id=7">
                                         <h4 class="light black-text text-lighten-3">
                                             información del idioma
                                         </h4>
@@ -222,7 +222,7 @@
                                 <img src="imagenes/francesf.png">
     				<div class="caption center-align">
                                     <h3 class="light black-text">Francés</h3>
-                                    <a href="/ProyectoFinal/informacionIdioma?id=2">
+                                    <a href="/ProyectoFinal/informacionIdioma?id=3">
                                         <h4 class="light black-text text-lighten-3">
                                             información del idioma
                                         </h4>
@@ -235,7 +235,7 @@
                             <img src="imagenes/greciaf.png" height="300px" width="">
     				<div class="caption center-align">
                                     <h3 class="light black-text">Griego Moderno</h3>
-                                    <a href="/ProyectoFinal/informacionIdioma?id=1">
+                                    <a href="/ProyectoFinal/informacionIdioma?id=8">
                                         <h4 class="light black-text text-lighten-3">
                                             información del idioma
                                         </h4>
@@ -248,7 +248,7 @@
                             <img src="imagenes/hebreof.png" height="300px" width="">
     				<div class="caption center-align">
                                     <h3 class="light black-text">Hebreo</h3>
-                                    <a href="/ProyectoFinal/informacionIdioma?id=1">
+                                    <a href="/ProyectoFinal/informacionIdioma?id=9">
                                         <h4 class="light black-text text-lighten-3">
                                             información del idioma
                                         </h4>
@@ -261,7 +261,7 @@
                                 <img src="imagenes/inglesf.jpg">
     				<div class="caption center-align">
                                     <h3 class="light black-text">Inglés</h3>
-                                    <a href="/ProyectoFinal/informacionIdioma?id=3">
+                                    <a href="/ProyectoFinal/informacionIdioma?id=2">
                                         <h4 class="light black-text text-lighten-3">
                                             información del idioma
                                         </h4>
@@ -274,7 +274,7 @@
                             <img src="imagenes/italiaf.png" height="300px" width="">
     				<div class="caption center-align">
                                     <h3 class="light black-text">Italiano</h3>
-                                    <a href="/ProyectoFinal/informacionIdioma?id=1">
+                                    <a href="/ProyectoFinal/informacionIdioma?id=10">
                                         <h4 class="light black-text text-lighten-3">
                                             información del idioma
                                         </h4>
@@ -287,7 +287,7 @@
                                 <img src="imagenes/japonesf.png">
     				<div class="caption center-align">
                                     <h3 class="light black-text">Japonés</h3>
-                                    <a href="/ProyectoFinal/informacionIdioma?id=4">
+                                    <a href="/ProyectoFinal/informacionIdioma?id=11">
                                         <h4 class="light black-text text-lighten-3">
                                             información del idioma
                                         </h4>
@@ -300,7 +300,7 @@
                                 <img src="imagenes/mexicof.png">
     				<div class="caption center-align">
                                     <h3 class="light black-text">Náhuatl</h3>
-                                    <a href="/ProyectoFinal/informacionIdioma?id=4">
+                                    <a href="/ProyectoFinal/informacionIdioma?id=12">
                                         <h4 class="light black-text text-lighten-3">
                                             información del idioma
                                         </h4>
@@ -313,7 +313,7 @@
                                 <img src="imagenes/portuguésf.png">
     				<div class="caption center-align">
                                     <h3 class="light black-text">Portugués</h3>
-                                    <a href="/ProyectoFinal/informacionIdioma?id=4">
+                                    <a href="/ProyectoFinal/informacionIdioma?id=13">
                                         <h4 class="light black-text text-lighten-3">
                                             información del idioma
                                         </h4>
@@ -326,7 +326,7 @@
                                 <img src="imagenes/rumaniaf.png">
     				<div class="caption center-align">
                                     <h3 class="light black-text">Rumano</h3>
-                                    <a href="/ProyectoFinal/informacionIdioma?id=4">
+                                    <a href="/ProyectoFinal/informacionIdioma?id=14">
                                         <h4 class="light black-text text-lighten-3">
                                             información del idioma
                                         </h4>
@@ -339,7 +339,7 @@
                                 <img src="imagenes/rusiaf.png">
     				<div class="caption center-align">
                                     <h3 class="light black-text">Ruso</h3>
-                                    <a href="/ProyectoFinal/informacionIdioma?id=4">
+                                    <a href="/ProyectoFinal/informacionIdioma?id=15">
                                         <h4 class="light black-text text-lighten-3">
                                             información del idioma
                                         </h4>
@@ -352,7 +352,7 @@
                                 <img src="imagenes/sueciaf.png">
     				<div class="caption center-align">
                                     <h3 class="light black-text">Sueco</h3>
-                                    <a href="/ProyectoFinal/informacionIdioma?id=4">
+                                    <a href="/ProyectoFinal/informacionIdioma?id=16">
                                         <h4 class="light black-text text-lighten-3">
                                             información del idioma
                                         </h4>
@@ -365,7 +365,7 @@
                                 <img src="imagenes/vascof.png">
     				<div class="caption center-align">
                                     <h3 class="light black-text">Vasco</h3>
-                                    <a href="/ProyectoFinal/informacionIdioma?id=4">
+                                    <a href="/ProyectoFinal/informacionIdioma?id=17">
                                         <h4 class="light black-text text-lighten-3">
                                             información del idioma
                                         </h4>
