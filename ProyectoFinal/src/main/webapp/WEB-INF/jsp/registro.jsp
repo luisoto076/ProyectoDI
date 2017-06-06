@@ -29,22 +29,22 @@
                 <!-- Dropdown Structure -->
                 <ul id='dropdown2' class='dropdown-content'>
                     <li><a href="/ProyectoFinal/informacionIdioma?id=1">Alemán</a></li>
-                    <li><a href="#!">Árabe</a></li>
-                    <li><a href="#!">Catalán</a></li>
-                    <li><a href="#!">Chino</a></li>
-                    <li><a href="#!">Coreano</a></li>
+                    <li><a href="/ProyectoFinal/informacionIdioma?id=4">Árabe</a></li>
+                    <li><a href="/ProyectoFinal/informacionIdioma?id=5">Catalán</a></li>
+                    <li><a href="/ProyectoFinal/informacionIdioma?id=6">Chino</a></li>
+                    <li><a href="/ProyectoFinal/informacionIdioma?id=7">Coreano</a></li>
                     <li><a href="/ProyectoFinal/informacionIdioma?id=3">Francés</a></li>
-                    <li><a href="#!">Griego moderno</a></li>
-                    <li><a href="#!">Hebreo</a></li>
+                    <li><a href="/ProyectoFinal/informacionIdioma?id=8">Griego moderno</a></li>
+                    <li><a href="/ProyectoFinal/informacionIdioma?id=9">Hebreo</a></li>
                     <li><a href="/ProyectoFinal/informacionIdioma?id=2">Inglés</a></li>
-                    <li><a href="#!">Italiano</a></li>
-                    <li><a href="#!">Japonés</a></li>
-                    <li><a href="#!">Náhuatl</a></li>
-                    <li><a href="#!">Portugués</a></li>
-                    <li><a href="#!">Rumano</a></li>
-                    <li><a href="#!">Ruso</a></li>
-                    <li><a href="#!">Sueco</a></li>
-                    <li><a href="#!">Vasco</a></li>
+                    <li><a href="/ProyectoFinal/informacionIdioma?id=10">Italiano</a></li>
+                    <li><a href="/ProyectoFinal/informacionIdioma?id=11">Japonés</a></li>
+                    <li><a href="/ProyectoFinal/informacionIdioma?id=12">Náhuatl</a></li>
+                    <li><a href="/ProyectoFinal/informacionIdioma?id=13">Portugués</a></li>
+                    <li><a href="/ProyectoFinal/informacionIdioma?id=14">Rumano</a></li>
+                    <li><a href="/ProyectoFinal/informacionIdioma?id=15">Ruso</a></li>
+                    <li><a href="/ProyectoFinal/informacionIdioma?id=16">Sueco</a></li>
+                    <li><a href="/ProyectoFinal/informacionIdioma?id=17">Vasco</a></li>
                     
                     
                 </ul>

@@ -30,22 +30,22 @@
                 <!-- Dropdown Structure -->
                 <ul id='dropdown2' class='dropdown-content'>
                     <li><a href="/ProyectoFinal/informacionIdioma?id=1">Alemán</a></li>
-                    <li><a href="#!">Árabe</a></li>
-                    <li><a href="#!">Catalán</a></li>
-                    <li><a href="#!">Chino</a></li>
-                    <li><a href="#!">Coreano</a></li>
+                    <li><a href="/ProyectoFinal/informacionIdioma?id=4">Árabe</a></li>
+                    <li><a href="/ProyectoFinal/informacionIdioma?id=5">Catalán</a></li>
+                    <li><a href="/ProyectoFinal/informacionIdioma?id=6">Chino</a></li>
+                    <li><a href="/ProyectoFinal/informacionIdioma?id=7">Coreano</a></li>
                     <li><a href="/ProyectoFinal/informacionIdioma?id=3">Francés</a></li>
-                    <li><a href="#!">Griego moderno</a></li>
-                    <li><a href="#!">Hebreo</a></li>
+                    <li><a href="/ProyectoFinal/informacionIdioma?id=8">Griego moderno</a></li>
+                    <li><a href="/ProyectoFinal/informacionIdioma?id=9">Hebreo</a></li>
                     <li><a href="/ProyectoFinal/informacionIdioma?id=2">Inglés</a></li>
-                    <li><a href="#!">Italiano</a></li>
-                    <li><a href="#!">Japonés</a></li>
-                    <li><a href="#!">Náhuatl</a></li>
-                    <li><a href="#!">Portugués</a></li>
-                    <li><a href="#!">Rumano</a></li>
-                    <li><a href="#!">Ruso</a></li>
-                    <li><a href="#!">Sueco</a></li>
-                    <li><a href="#!">Vasco</a></li>
+                    <li><a href="/ProyectoFinal/informacionIdioma?id=10">Italiano</a></li>
+                    <li><a href="/ProyectoFinal/informacionIdioma?id=11">Japonés</a></li>
+                    <li><a href="/ProyectoFinal/informacionIdioma?id=12">Náhuatl</a></li>
+                    <li><a href="/ProyectoFinal/informacionIdioma?id=13">Portugués</a></li>
+                    <li><a href="/ProyectoFinal/informacionIdioma?id=14">Rumano</a></li>
+                    <li><a href="/ProyectoFinal/informacionIdioma?id=15">Ruso</a></li>
+                    <li><a href="/ProyectoFinal/informacionIdioma?id=16">Sueco</a></li>
+                    <li><a href="/ProyectoFinal/informacionIdioma?id=17">Vasco</a></li>
                     
                     
                 </ul>
@@ -90,6 +90,7 @@
         </div>
         <br/> -->
         <main>
+            <h3 id="nuestros">Anuncios</h3>
             <div id="azul" class="carousel carousel-slider center">
                 <div class="carousel-item blue white-text modal-trigger">
                     <a href="#modal1"><img src="imagenes/cele_carr.png"></a>
@@ -107,7 +108,6 @@
                     <a href="#modal5"><img src="imagenes/cele_carr5.png"></a>
                 </div>
             </div>
-            
             <div id="modal1" class="modal">
                 <div class="modal-content">
                     <img src="imagenes/cele_ext.jpg">
@@ -374,328 +374,7 @@
                         </div>
                         </li>
 		    </ul>
-		  </div> 
-            <!--
-        <div class="row">
-        <div class="col s4 m4">
-          <div class="card">
-            <div class="card-image">
-              <img src="imagenes/aleman.png">
-              
-            </div>
-            <div class="card-content">
-                <h4>Alemán</h4>
-              <p>Desde 1966 el Departamento de Alemán del Centro de Enseñanza de Lenguas Extranjeras (CELE) 
-                  ofrece cursos semestrales de alemán en la modalidad presencial para los estudiantes 
-                  de licenciatura y posgrado, académicos y trabajadores del campus CU que cumplan con los 
-                  requisitos de ingreso</p>
-            </div>
-            <div class="card-action">
-              <a href="/ProyectoFinal/informacionIdioma?id=1">Más información</a>
-            </div>
-          </div>
-        </div>
-        <div class="col s4 m4">
-          <div class="card">
-            <div class="card-image">
-              <img src="imagenes/arabia.png">
-              
-            </div>
-            <div class="card-content">
-                <h4>Árabe</h4>
-              <p>Desde 1966 el Departamento de Alemán del Centro de Enseñanza de Lenguas Extranjeras (CELE) 
-                  ofrece cursos semestrales de alemán en la modalidad presencial para los estudiantes 
-                  de licenciatura y posgrado, académicos y trabajadores del campus CU que cumplan con los 
-                  requisitos de ingreso</p>
-            </div>
-            <div class="card-action">
-              <a href="/ProyectoFinal/informacionIdioma?id=1">Más información</a>
-            </div>
-          </div>
-        </div>
-        <div class="col s4 m4">
-          <div class="card">
-            <div class="card-image black-text">
-              <img src="imagenes/catalan.png">
-              
-            </div>
-            <div class="card-content">
-                <h4>Catalán</h4>
-              <p>Desde 1966 el Departamento de Alemán del Centro de Enseñanza de Lenguas Extranjeras (CELE) 
-                  ofrece cursos semestrales de alemán en la modalidad presencial para los estudiantes 
-                  de licenciatura y posgrado, académicos y trabajadores del campus CU que cumplan con los 
-                  requisitos de ingreso</p>
-            </div>
-            <div class="card-action">
-              <a href="/ProyectoFinal/informacionIdioma?id=1">Más información</a>
-            </div>
-          </div>
-        </div>    
-      </div>
-            <div class="row">
-        <div class="col s4 m4">
-          <div class="card">
-            <div class="card-image">
-              <img src="imagenes/china.png">
-              
-            </div>
-            <div class="card-content">
-                <h4>Chino</h4>
-              <p>Desde 1966 el Departamento de Alemán del Centro de Enseñanza de Lenguas Extranjeras (CELE) 
-                  ofrece cursos semestrales de alemán en la modalidad presencial para los estudiantes 
-                  de licenciatura y posgrado, académicos y trabajadores del campus CU que cumplan con los 
-                  requisitos de ingreso</p>
-            </div>
-            <div class="card-action">
-              <a href="/ProyectoFinal/informacionIdioma?id=1">Más información</a>
-            </div>
-          </div>
-        </div>
-        <div class="col s4 m4">
-          <div class="card">
-            <div class="card-image">
-              <img src="imagenes/corea.png">
-              
-            </div>
-            <div class="card-content">
-                <h4>Coreano</h4>
-              <p>Desde 1966 el Departamento de Alemán del Centro de Enseñanza de Lenguas Extranjeras (CELE) 
-                  ofrece cursos semestrales de alemán en la modalidad presencial para los estudiantes 
-                  de licenciatura y posgrado, académicos y trabajadores del campus CU que cumplan con los 
-                  requisitos de ingreso</p>
-            </div>
-            <div class="card-action">
-              <a href="/ProyectoFinal/informacionIdioma?id=1">Más información</a>
-            </div>
-          </div>
-        </div>
-        <div class="col s4 m4">
-          <div class="card">
-            <div class="card-image">
-              <img src="imagenes/frances2.png">
-              
-            </div>
-            <div class="card-content">
-                <h4>Francés</h4>
-              <p>Desde 1966 el Departamento de Alemán del Centro de Enseñanza de Lenguas Extranjeras (CELE) 
-                  ofrece cursos semestrales de alemán en la modalidad presencial para los estudiantes 
-                  de licenciatura y posgrado, académicos y trabajadores del campus CU que cumplan con los 
-                  requisitos de ingreso</p>
-            </div>
-            <div class="card-action">
-              <a href="/ProyectoFinal/informacionIdioma?id=1">Más información</a>
-            </div>
-          </div>
-        </div>    
-      </div>
-       <div class="row">
-        <div class="col s4 m4">
-          <div class="card">
-            <div class="card-image">
-              <img src="imagenes/grecia.png">
-              
-            </div>
-            <div class="card-content">
-                <h4>Griego Moderno</h4>  
-              <p>Desde 1966 el Departamento de Alemán del Centro de Enseñanza de Lenguas Extranjeras (CELE) 
-                  ofrece cursos semestrales de alemán en la modalidad presencial para los estudiantes 
-                  de licenciatura y posgrado, académicos y trabajadores del campus CU que cumplan con los 
-                  requisitos de ingreso</p>
-            </div>
-            <div class="card-action">
-              <a href="/ProyectoFinal/informacionIdioma?id=1">Más información</a>
-            </div>
-          </div>
-        </div>
-        <div class="col s4 m4">
-          <div class="card">
-            <div class="card-image">
-              <img src="imagenes/hebreo.png">
-              
-            </div>
-            <div class="card-content">
-                <h4>Hebreo</h4>
-              <p>Desde 1966 el Departamento de Alemán del Centro de Enseñanza de Lenguas Extranjeras (CELE) 
-                  ofrece cursos semestrales de alemán en la modalidad presencial para los estudiantes 
-                  de licenciatura y posgrado, académicos y trabajadores del campus CU que cumplan con los 
-                  requisitos de ingreso</p>
-            </div>
-            <div class="card-action">
-              <a href="/ProyectoFinal/informacionIdioma?id=1">Más información</a>
-            </div>
-          </div>
-        </div>
-        <div class="col s4 m4">
-          <div class="card">
-            <div class="card-image">
-              <img src="imagenes/ingles1.jpg">
-              
-            </div>
-            <div class="card-content">
-                <h4>Inglés</h4>
-              <p>Desde 1966 el Departamento de Alemán del Centro de Enseñanza de Lenguas Extranjeras (CELE) 
-                  ofrece cursos semestrales de alemán en la modalidad presencial para los estudiantes 
-                  de licenciatura y posgrado, académicos y trabajadores del campus CU que cumplan con los 
-                  requisitos de ingreso</p>
-            </div>
-            <div class="card-action">
-              <a href="/ProyectoFinal/informacionIdioma?id=1">Más información</a>
-            </div>
-          </div>
-        </div>    
-      </div>
-        <div class="row">
-        <div class="col s4 m4">
-          <div class="card">
-            <div class="card-image">
-              <img src="imagenes/italia.png">
-              
-            </div>
-            <div class="card-content">
-                <h4>Italiano</h4>
-              <p>Desde 1966 el Departamento de Alemán del Centro de Enseñanza de Lenguas Extranjeras (CELE) 
-                  ofrece cursos semestrales de alemán en la modalidad presencial para los estudiantes 
-                  de licenciatura y posgrado, académicos y trabajadores del campus CU que cumplan con los 
-                  requisitos de ingreso</p>
-            </div>
-            <div class="card-action">
-              <a href="/ProyectoFinal/informacionIdioma?id=1">Más información</a>
-            </div>
-          </div>
-        </div>
-        <div class="col s4 m4">
-          <div class="card">
-            <div class="card-image">
-              <img src="imagenes/japones.png">
-              
-            </div>
-            <div class="card-content">
-                <h4>Japonés</h4>
-              <p>Desde 1966 el Departamento de Alemán del Centro de Enseñanza de Lenguas Extranjeras (CELE) 
-                  ofrece cursos semestrales de alemán en la modalidad presencial para los estudiantes 
-                  de licenciatura y posgrado, académicos y trabajadores del campus CU que cumplan con los 
-                  requisitos de ingreso</p>
-            </div>
-            <div class="card-action">
-              <a href="/ProyectoFinal/informacionIdioma?id=1">Más información</a>
-            </div>
-          </div>
-        </div>
-        <div class="col s4 m4">
-          <div class="card">
-            <div class="card-image">
-              <img src="imagenes/mexico.png">
-              
-            </div>
-            <div class="card-content">
-                <h4>Náhuatl</h4>
-              <p>Desde 1966 el Departamento de Alemán del Centro de Enseñanza de Lenguas Extranjeras (CELE) 
-                  ofrece cursos semestrales de alemán en la modalidad presencial para los estudiantes 
-                  de licenciatura y posgrado, académicos y trabajadores del campus CU que cumplan con los 
-                  requisitos de ingreso</p>
-            </div>
-            <div class="card-action">
-              <a href="/ProyectoFinal/informacionIdioma?id=1">Más información</a>
-            </div>
-          </div>
-        </div>    
-      </div>
-       <div class="row">
-        <div class="col s4 m4">
-          <div class="card">
-            <div class="card-image">
-              <img src="imagenes/portugués.png">
-              
-            </div>
-            <div class="card-content">
-                <h4>Portugués</h4>
-              <p>Desde 1966 el Departamento de Alemán del Centro de Enseñanza de Lenguas Extranjeras (CELE) 
-                  ofrece cursos semestrales de alemán en la modalidad presencial para los estudiantes 
-                  de licenciatura y posgrado, académicos y trabajadores del campus CU que cumplan con los 
-                  requisitos de ingreso</p>
-            </div>
-            <div class="card-action">
-              <a href="/ProyectoFinal/informacionIdioma?id=1">Más información</a>
-            </div>
-          </div>
-        </div>
-        <div class="col s4 m4">
-          <div class="card">
-            <div class="card-image">
-              <img src="imagenes/rumania.png">
-              
-            </div>
-            <div class="card-content">
-                <h4>Rumano</h4>
-              <p>Desde 1966 el Departamento de Alemán del Centro de Enseñanza de Lenguas Extranjeras (CELE) 
-                  ofrece cursos semestrales de alemán en la modalidad presencial para los estudiantes 
-                  de licenciatura y posgrado, académicos y trabajadores del campus CU que cumplan con los 
-                  requisitos de ingreso</p>
-            </div>
-            <div class="card-action">
-              <a href="/ProyectoFinal/informacionIdioma?id=1">Más información</a>
-            </div>
-          </div>
-        </div>
-        <div class="col s4 m4">
-          <div class="card">
-            <div class="card-image">
-              <img src="imagenes/rusia.png">
-              
-            </div>
-            <div class="card-content">
-                <h4>Ruso</h4>
-              <p>Desde 1966 el Departamento de Alemán del Centro de Enseñanza de Lenguas Extranjeras (CELE) 
-                  ofrece cursos semestrales de alemán en la modalidad presencial para los estudiantes 
-                  de licenciatura y posgrado, académicos y trabajadores del campus CU que cumplan con los 
-                  requisitos de ingreso</p>
-            </div>
-            <div class="card-action">
-              <a href="/ProyectoFinal/informacionIdioma?id=1">Más información</a>
-            </div>
-          </div>
-        </div>    
-      </div>
-       <div class="row">
-        <div class="col s4 m4">
-          <div class="card">
-            <div class="card-image">
-              <img src="imagenes/suecia.png">
-              
-            </div>
-            <div class="card-content">
-                <h4>Sueco</h4>
-              <p>Desde 1966 el Departamento de Alemán del Centro de Enseñanza de Lenguas Extranjeras (CELE) 
-                  ofrece cursos semestrales de alemán en la modalidad presencial para los estudiantes 
-                  de licenciatura y posgrado, académicos y trabajadores del campus CU que cumplan con los 
-                  requisitos de ingreso</p>
-            </div>
-            <div class="card-action">
-              <a href="/ProyectoFinal/informacionIdioma?id=1">Más información</a>
-            </div>
-          </div>
-        </div>
-        <div class="col s4 m4">
-          <div class="card">
-            <div class="card-image">
-              <img src="imagenes/vasco.png">
-              
-            </div>
-            <div class="card-content">
-                <h4>Vasco</h4>
-              <p>Desde 1966 el Departamento de Alemán del Centro de Enseñanza de Lenguas Extranjeras (CELE) 
-                  ofrece cursos semestrales de alemán en la modalidad presencial para los estudiantes 
-                  de licenciatura y posgrado, académicos y trabajadores del campus CU que cumplan con los 
-                  requisitos de ingreso</p>
-            </div>
-            <div class="card-action">
-              <a href="/ProyectoFinal/informacionIdioma?id=1">Más información</a>
-            </div>
-          </div>
-        </div>
-          
-      </div> 
-            -->
+		  </div>  
         </main>
             <!--<div class="indicadores">
                 <a><i onclick="prev()" class="material-icons  medium">skip_previous</i></a>
